@@ -1,0 +1,241 @@
+/*
+* @Author: Lenovo
+* @Date:   2018-09-27 19:25:03
+* @Last Modified by:   Lenovo
+* @Last Modified time: 2018-09-27 20:45:19
+*/
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    background: #FBFEFF;
+}
+a{
+    text-decoration: none;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+header{
+    height: 0.86rem;
+    width: 100%;
+    padding: 0 0.24rem;
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+}
+header .back{
+    height: 100%;
+    width: 0.25rem;
+    background: url('../img/jt-back.png') no-repeat center;
+    background-size: 0.25rem 0.41rem;
+}
+header .title{
+    font-size: 0.38rem;
+    color: #4ebbfe;
+    line-height: 0.86rem;
+    background: #fff;
+}
+header .list{
+    width: 0.48rem;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+}
+.Optin{
+    padding: 0 .8rem;
+    box-shadow: 0 .3rem .6rem .02rem #edf8ff;
+    margin-bottom: .5rem;
+    background: #fff;
+}
+.Optin .change{
+    height: 0.92rem;
+    width: 100%;
+    padding: 0 0.88rem;
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+}
+.Optin .change .chang_box{
+    width: 1.3rem;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+}
+.Optin .change .chang_box p{
+    color: #3bacfe;
+    font-size: 0.22rem;
+}
+.Optin .change .chang_box .xiala{
+    margin-right: 0.4rem;
+    margin-top: 0.05rem;
+    height: 0.16rem;
+    width: 0.24rem;
+    background: url('../img/blue.png') no-repeat center;
+}
+.Optin .change .chang_box1{
+    width: 1.3rem;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+}
+.Optin .change .chang_box1 p{
+    color: #3bacfe;
+    font-size: 0.22rem;
+}
+.Optin .change .chang_box1 .xiala{
+    margin-top: 0.05rem;
+    height: 0.16rem;
+    width: 0.24rem;
+    background: url('../img/blue.png') no-repeat center;
+    background-size: cover;
+}
+.Optin .server_active{
+    color: #36d681;
+}
+.Optin .whole{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    width: 100%;
+    height: auto;
+}
+
+.optin1{
+    color: #5fbbfe;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    padding: 0.3rem 0;
+}
+.Optin .whole .optin1 h3{
+    margin: 0;
+    padding: 0;
+    font-size: .22rem;
+    display: inline-block;
+}
+.Optin .whole .optin1 span{
+    font-size: .22rem;
+    display: inline-block;
+}
+.Optin .whole .optin1:nth-child(1){
+    color: #74e3a9;
+}
+
+
+
+.bottom{
+    width: 6.84rem;
+    height: 1.87rem;
+    margin: .3rem auto 0;
+    display: flex;
+    justify-content: space-between;
+}
+.bottom img{
+    width: 1.74rem;
+    height: 1.73rem;
+    display: block;
+}
+.bottom .addressRight{
+    width: 4.87rem;
+    height: 100%;
+    position: relative;
+}
+.addressRight .top{
+    width: 100%;
+    height: .5rem;
+    display: flex;
+    justify-content: flex-start;
+}
+.addressRight .top span{
+    display: block;
+    font-size: 0.3rem;
+    line-height: .5rem;
+    color: #707272;
+    font-weight:bold;
+}
+.addressRight .top p{
+    font-size: 0.2rem;
+    color: #B5B7B8;
+    text-align: center;
+    line-height: 0.5rem;
+    margin-left: 0.2rem;
+}
+.addressRight .bottom .center{
+    height: .43rem;
+    display: flex;
+    justify-content: space-between;
+}
+.addressRight .center h3{
+    height: 100%;
+    float: left;
+    display: flex;
+    margin-right: .6rem;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.05rem;
+     margin-top: 0.05rem;
+}
+.addressRight .center h3 .spot{
+    width: 0.05rem;
+    height: 0.05rem;
+    background: #44b5ff;
+    border-radius: 50%;
+}
+.addressRight .center h3 span{
+    font-size: .19rem;
+    line-height: .43rem;
+    color: #afb1b2;
+    margin: 0 .07rem;
+    font-weight: 400;
+}
+.addressRight .bottom{
+    width: 100%;
+    height: .35rem;
+    display: flex;
+    justify-content: left;
+    margin-top: 0;
+}
+.addressRight .bottom span{
+    display: block;
+    padding: 0 .19rem;
+    border-radius: .17rem;
+    background: #e7f6ff;
+    font-size: .19rem;
+    color: #36a8fe;
+    margin-right: .1rem;
+}
+.addressRight button{
+    width: 1.26rem;
+    height: .45rem;
+    border-radius: .22rem;
+    background: #3bacfe;
+    color: #fff;
+    font-size: .19rem;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border: none;
+    outline: none;
+    box-shadow: .1rem .1rem .3rem rgb(194,230,255);
+}
+.addressRight .Price{
+    display: block;
+    font-size: .19rem;
+    color: #fbb548;
+    position: absolute;
+    bottom: 0.1rem;
+    right: 0;
+}
+.addressRight .center .change{
+    color: #DADCDD;
+}

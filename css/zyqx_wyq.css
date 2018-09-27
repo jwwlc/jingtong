@@ -1,0 +1,241 @@
+/*
+* @Author: Lenovo
+* @Date:   2018-09-26 20:59:16
+* @Last Modified by:   Lenovo
+* @Last Modified time: 2018-09-27 16:19:15
+*/
+*{
+	background: #FBFEFF;
+}
+
+header{
+	height: 0.86rem;
+	width: 100%;
+	padding: 0 0.24rem;
+	display: flex;
+	justify-content: space-between;
+	background: #fff;
+}
+header .back{
+	height: 100%;
+	width: 0.25rem;
+	background: url('../img/jt-back.png') no-repeat center;
+	background-size: 0.25rem 0.41rem;
+}
+header .title{
+	font-size: 0.38rem;
+	color: #4ebbfe;
+	line-height: 0.86rem;
+	background: #fff;
+}
+header .list{
+	width: 0.48rem;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: #fff;
+}
+
+
+/* 选项 */
+.option{
+	height: 1.04rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 0.24rem;
+	background: #fff;
+}
+.option .option-box{
+	height: 0.53rem;
+	width: 1.33rem;
+	border-radius: 0.24rem;
+	color: #3BACFE;
+	font-size: 0.2rem;
+	text-align: center;
+	line-height: 0.53rem;
+	background: #fff;
+
+}
+.option .active{
+	background-color: #3BACFE;
+	color: #fff;
+}
+
+
+/* 全部服务 */
+.server{
+	background:#FAFDFE;
+	height: 7.54rem;
+	box-shadow: 0 0.06rem 0.2rem 0.06rem rgba(236,248,255,1);
+}
+
+.server ul li{
+	margin: 0.3rem 0;
+	height: 2rem;
+	padding: 0 0.24rem;
+	display: flex;
+	justify-content: space-between;
+}
+.server ul li .pic{
+	height: 2rem;
+	width: 2rem;
+	background: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 0.1rem;
+	box-shadow: 0 0 0.1rem 0.05rem rgba(245,247,248,1);
+}
+
+.server ul li .pic img{
+	height: 75%;
+	width:65% ;
+}
+.server ul li .text{
+	width: 4.76rem;
+	height: 100%;
+}
+.server ul li .text h4{
+	margin-top: 0.1rem;
+	font-size: 0.3rem;
+	color: #646666;
+}
+.server ul li .text h5{
+	font-size: 0.22rem;
+	font-weight: 400;
+	color: #B2B4B5;
+	margin-top: 0.05rem;
+}
+.server ul li .text .pingcase{
+	height: 0.6rem;
+	width: 100%;
+	border-top: 0.01rem solid #F0F5F7;
+	margin-top: 0.17rem;
+	display: flex;
+	justify-content: space-between;
+}
+.server ul li .text .ping{
+	height: 0.6rem;
+	width: 2.7rem;
+	display: flex;
+	justify-content: space-between;
+}
+.server ul li .text .ping .pingbox{
+	width: 1.12rem;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.server ul li .text .ping .pingbox .bot{
+	height: 0.05rem;
+	width: 0.05rem;
+	background: #44B5FF;
+	border-radius: 50%;
+}
+.server ul li .text .ping .pingbox .bot1{
+	height: 0.05rem;
+	width: 0.05rem;
+	background: #36D681;
+	border-radius: 50%;
+}
+.server ul li .text .ping .pingbox .word{
+	color: #AFB1B2;
+	font-size: 0.2rem;
+}
+.server ul li .text .ping .pingbox span {
+	color: #36a8fe;
+	font-size: 0.24rem;
+	display: inline;
+}
+.server ul li .text .ping .pingbox .flog{
+	color: #b9e1ff;
+	font-size: 0.24rem;
+	display: inline;
+}
+.server ul li .pingcase .price{
+	height: 100%;
+	width: 1.14rem;
+	color: #fbb548;
+	font-size: 0.26rem;
+	text-align: center;
+	line-height:0.6rem; 
+}
+.server ul li .bag{
+	height: 0.33rem;
+	width: 100%;
+}
+.server ul li .bag .bag_pic{
+	height: 0.35rem;
+	width: 0.35rem;
+	/* background: url('../img/baodashi.png') center cover; */
+}
+.server ul li .sale{
+    width: 100%;
+    height: .44rem;
+    overflow: hidden;
+    margin-top: .03rem;
+    display: flex;
+    justify-content: flex-start;
+}
+.server ul li .sale .box{
+    width: .3rem;
+    height: .3rem;
+    float: left;
+    margin-right: .1rem;
+    background: url("../img/baodashi.png") no-repeat center;
+    background-size: cover;
+}
+.server ul li .sale .text{
+    font-size: 0.16rem;
+    color: #afb1b2;
+    float: right;
+}
+
+.server .change{
+	height: 0.92rem;
+	width: 100%;
+	padding: 0 0.88rem;
+	display: flex;
+	justify-content: space-between;
+}
+.server .change .chang_box{
+	width: 1.3rem;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.server .change .chang_box p{
+	color: #3bacfe;
+	font-size: 0.22rem;
+}
+.server .change .chang_box .xiala{
+	margin-right: 0.4rem;
+	margin-top: 0.05rem;
+	height: 0.16rem;
+	width: 0.24rem;
+	background: url('../img/blue.png') no-repeat center;
+}
+.server .change .chang_box1{
+	width: 1.3rem;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.server .change .chang_box1 p{
+	color: #3bacfe;
+	font-size: 0.22rem;
+}
+.server .change .chang_box1 .xiala{
+	margin-top: 0.05rem;
+	height: 0.16rem;
+	width: 0.24rem;
+	background: url('../img/blue.png') no-repeat center;
+}
+.server .server_active{
+	color: #36d681;
+}
