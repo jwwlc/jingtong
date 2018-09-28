@@ -1,0 +1,579 @@
+/*
+* @Author: Lenovo
+* @Date:   2018-09-27 23:15:59
+* @Last Modified by:   Lenovo
+* @Last Modified time: 2018-09-28 21:55:11
+*/
+header{
+    height: 0.86rem;
+    width: 100%;
+    padding: 0 0.24rem;
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    box-shadow: 0 0rem 0.4rem 0.1rem #edf8ff;
+}
+header .back{
+    height: 100%;
+    width: 0.25rem;
+    background: url('../img/jt-back.png') no-repeat center;
+    background-size: 0.25rem 0.41rem;
+}
+header .title{
+    font-size: 0.38rem;
+    color: #4ebbfe;
+    line-height: 0.86rem;
+    background: #fff;
+}
+header .list{
+    width: 0.48rem;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+}
+
+
+/*选择收货地址开始*/
+.receive{
+    width: 100%;
+    height: 0.25rem;
+    margin-top: 0.46rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0.32rem 0 0.22rem;
+    font-size: 0.26rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.01rem;
+    color:#979899;
+    font-weight: 600;
+}
+.receive .back{
+    width: 0.14rem;
+    height: 0.24rem;
+
+}
+.receive .back img{
+    width: 100%;
+    height: 100%;
+}
+
+/*选择收货地址结束*/
+/*订单开始*/
+.order{
+    width: 100%;
+    height:2.07rem;
+    margin-top: 0.61rem;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    display: flex;
+}
+.order .order-left{
+    width: 1.74rem;
+    height: 1.74rem;
+    background: white;
+    border-radius: 0.05rem;
+    box-shadow: 0 0 0.1rem 0.05rem rgba(245,247,248,1);
+}
+.order .order-left img{
+    width: 1.19rem;
+    height: 1.25rem;
+    display: block;
+    margin: 0.26rem 0.35rem 0.23rem 0.2rem;
+
+}
+.order .order-right{
+    /* width: calc(100% - 2.22rem); */
+    margin-left: 0.27rem;
+}
+.order .order-right .dian{
+    width: 0.2rem;
+    height:0.2rem;
+    margin: auto 0;
+
+}
+.order .order-right .dian img{
+    width: 100%;
+    height: 100%;
+
+}
+.order .order-right-one{
+    font-size: 0.3rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing:0.01rem;
+    color: #646666;
+    font-weight: 600;
+}
+.order .order-right-two{
+    display: flex;
+    margin-top: 0.1rem;
+}
+.order .order-right-two .dian{
+    height: 0.08rem;
+    width: 0.08rem;
+    background: #44B5FF;
+    border-radius: 50%;
+}
+.order .order-right-two .right{
+    font-size: 0.26rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #36a8fe;
+    font-weight: 600;
+    margin-left: 0.1rem;
+}
+
+
+.order .order-right-three{
+    display: flex;
+}
+.order .order-right-three .dian{
+    height: 0.08rem;
+    width: 0.08rem;
+    background: #44B5FF;
+    border-radius: 50%;
+}
+.order .order-right-three .right
+{
+    font-size: 0.22rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.01rem;
+    color: #AFB1B2;
+    font-weight: 600;
+    margin-left: 0.1rem;
+}
+.order .order-right-four{
+    margin-top: 0.2rem;
+    display: flex;
+    justify-content: space-between;
+}
+.order .order-right-four .left{
+     display: flex;
+    align-items: center;
+}
+.order .order-right-four .dian{
+    height: 0.08rem;
+    width: 0.08rem;
+    background: #36D681;
+    border-radius: 50%;
+}
+.order .order-right-four p{
+    width: 0.85rem;
+    font-size:0.26rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #fbb548;
+    line-height: 0.52rem;
+    font-weight: 600;
+     margin-left: 0.1rem;
+}
+.order .order-right-four p span
+{
+    font-size:0.26rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #fbb548;
+    line-height: 0.52rem;
+    font-weight: 600;
+}
+
+.order .order-right-four .last{
+    display: flex;
+    align-items: center;
+    margin-right: 0.24rem;
+}
+.order .order-right-four span{
+    font-size: 0.26rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #8A8C8D;
+    line-height: 0.52rem;
+    font-weight: 600;
+    margin-left: 0.05rem;
+}
+.order .order-right-four .jian
+{
+    width: 1.18rem;
+    height:0.52rem;
+    background-color: #E7F6FF;
+    border-radius:0.26rem;
+    margin-left: 0.8rem;
+    text-align: center;
+    line-height: 0.52rem;
+    color: #3bacfe;
+    font-weight: 600;
+    font-size: 0.36rem;
+}
+.order .order-right-four span{
+    font-size: 0.26rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #36a8fe;
+    padding: 0 0.2rem;
+    line-height: 0.52rem;
+    font-weight: 600;
+}
+.order .order-right-four .jia
+{
+    width: 1.18rem;
+    height:0.52rem;
+    background-color:  #3bacfe;
+    border-radius:0.26rem;
+    text-align: center;
+    line-height: 0.52rem;
+    color: #fff;
+    font-weight: 600;
+    font-size: 0.36rem;
+}
+
+/*订单结束*/
+
+
+/*优惠券等开始*/
+
+.main ul{
+    /* height: 5.52rem; */
+    width: 100%;
+    margin-top: 0.1rem;
+}
+.main ul li{
+    height: 0.9rem;
+    width: 7.02rem;
+    margin-left: 0.24rem;
+    border-top: 0.02rem solid #F6F9FA;
+    border-bottom: 0.02rem solid #F6F9FA;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main ul li .left{
+    width: 1.36rem;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.main ul li .left .dots{
+    height: 0.08rem;
+    width: 0.08rem;
+    background: #44B5FF;
+    border-radius: 50%;
+}
+.main ul li .left .words{
+    color: #8a8c8d;
+    font-size: 0.24rem;
+    margin-left: 0.1rem;
+}
+.main ul li .right {
+    width: 1.84rem;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.main ul li .right .one{
+    color: #8a8c8d;
+    font-size: 0.24rem;
+    margin-right: 0.1rem;
+}
+.main ul li .right .two{
+    width: 0.3rem;
+    height: 100%;
+    background: url('../img/shuioder.png') no-repeat center;
+    background-size: 0.15rem 0.25rem;
+}
+
+.main ul li .left1{
+    /* width: 1.36rem; */
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.main ul li .left1 .dots{
+    height: 0.08rem;
+    width: 0.08rem;
+    background: #44B5FF;
+    border-radius: 50%;
+}
+.main ul li .left1 .words{
+    color: #8a8c8d;
+    font-size: 0.24rem;
+    margin-left: 0.1rem;
+}
+
+.main ul li .right1 {
+    /* width: 1.84rem; */
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.main ul li .right1 .one{
+    color: #8a8c8d;
+    font-size: 0.24rem;
+    margin-right: 0.1rem;
+}
+.main ul li .right1 .two{
+    width: 0.3rem;
+    height: 100%;
+    background: url('../img/shuioder.png') no-repeat center;
+    background-size: 0.15rem 0.25rem;
+}
+.main ul li .right1 .three{
+    color: #36a8fe;
+    font-size: 0.3rem;
+    margin-right: 0.1rem;
+    font-weight: bold;
+}
+/*优惠券等结束*/
+
+
+/*相机开始*/
+.camera{
+    width: 100%;
+}
+.camera .pic{
+    width: 1.01rem;
+    height: 1.01rem;
+}
+.camera .pic img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+/*相机结束*/
+
+/*添加文字描述开始*/
+.word{
+    width: 100%;
+    height: 1.27rem;
+    margin-bottom: 0.3rem;
+}
+.word input{
+    width: 100%;
+    height: 1.27rem;
+    outline: none;
+    border: none;
+    padding: 0.32rem;
+    background: rgba(41,167,255,0.03);
+}
+/*添加文字描述结束*/
+
+
+
+
+/*底部开始*/
+footer{
+    width: 7.49rem;
+    height:1.07rem;
+    background-color: #f1faff;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0.36rem 0 0.21rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+footer .left .dots1{
+    height: 0.08rem;
+    width: 0.08rem;
+    background: #44B5FF;
+    border-radius: 50%;
+    margin-right: 0.1rem;
+}
+footer .left{
+    display: flex;
+    align-items: center;
+     background:#F1FAFF;
+}
+footer .left .one{
+    width: 0.2rem;
+    height: 0.2rem;
+    margin:auto 0;
+}
+footer .one img{
+    width: 100%;
+    height: 100%;
+    margin: auto 0;
+}
+footer .left .he {
+
+    font-size: 0.24rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing:0.13rem;
+    line-height: 1.07rem;
+    color: #84CBFE;
+    font-weight: 600;
+    background: #F1FAFF;
+}
+footer .left .price
+{
+    font-size:0.36rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #36a8fe;
+    line-height: 1.07rem;
+    font-weight: 600;
+    background: #F1FAFF;
+
+}
+footer .left .price span
+{
+    font-size:0.36rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #36a8fe;
+    line-height: 1.07rem;
+    font-weight: 600;
+}
+footer .right{
+    width:3.5rem;
+    height:0.6rem;
+    background-color: #3bacfe;
+    box-shadow: 0 0.05rem 0.12rem 0
+    rgba(59, 172, 254, 0.43);
+    border-radius: 0.3rem;
+    margin: auto 0;
+    color: #fff;
+    font-size: 0.2rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.01rem;
+    text-align: center;
+    line-height: 0.6rem;
+
+}
+/*底部结束*/
+
+
+
+/*优惠券弹出框开始*/
+.cover{
+    width: 100%;
+    height: 4.92rem;
+    background: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 0 0.25rem 0 0.23rem;
+    box-shadow: 10rem 10rem 10rem 100rem rgba(0, 0, 0, 0.4);
+    display: none;
+}
+
+.cover .top .cuo{
+    width:0.24rem;
+    height: 0.24rem;
+    position: absolute;
+    right:0.25rem;
+    top:0.23rem;
+}
+.cover .top .cuo img{
+    width: 100%;
+    height: 100%;
+}
+.cover .top{
+    height: 1.07rem;
+    font-size:0.2rem;
+    font-weight: normal;
+    font-stretch: normal;
+    padding-top: 0.24rem;
+    letter-spacing:0.01rem;
+    color: #41b2fc;
+    text-align: center;
+}
+
+.cover .bottom ul li{
+    width: 100%;
+    height:0.65rem;
+    display: flex;
+    line-height: 0.63rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cover .bottom ul li .box{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.cover .bottom .fdot{
+    height: 0.1rem;
+    width: 0.1rem;
+    background: #44B5FF;
+    border-radius: 50%;
+}
+.cover .bottom .words{
+    margin-left: 0.1rem;
+}
+.cover .bottom ul li p
+{
+    font-size: 0.24rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing:0.01rem;
+    color: #8a8c8d;
+}
+.cover .bottom ul li p span
+{
+    font-size: 0.24rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing:0.01rem;
+    color: #8a8c8d;
+}
+.cover .bottom ul li .pic{
+    height: 0.28rem;
+    width: 0.28rem;
+    background: red;
+    background: url('../img/quan.png') no-repeat center;
+    background-size:0.23rem 0.23rem;
+    display: none;
+}
+
+.cover .close{
+    width: 7.49rem;
+    height: 1.07rem;
+    margin-top: 0.5rem;
+}
+.cover .close .list{
+    width: 4.45rem;
+    height:0.6rem;
+    background-image: linear-gradient(90deg,
+    #37e06f 0%,
+    #31d69a 100%),
+    linear-gradient(
+            #3bacfe,
+            #3bacfe);
+    background-blend-mode: normal,
+    normal;
+    box-shadow: 0 0.04rem 0.2rem 0
+    rgba(55, 223, 116, 0.75);
+    border-radius: 0.3rem;
+    margin:0.7rem auto;
+    color: #fff;
+    text-align: center;
+    line-height: 0.6rem;
+}
+.cover .close .list p{
+    font-size: 0.2rem;
+    color: #fff;
+}
+
+
+
+/*优惠券弹出框结束*/

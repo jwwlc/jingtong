@@ -1,0 +1,263 @@
+/*
+* @Author: Lenovo
+* @Date:   2018-09-28 17:06:41
+* @Last Modified by:   Lenovo
+* @Last Modified time: 2018-09-28 17:13:20
+*/
+header{
+	height: 0.86rem;
+	width: 100%;
+	padding: 0 0.24rem;
+	display: flex;
+	justify-content: space-between;
+	background: #fff;
+	box-shadow: 0 0rem 0.4rem 0.1rem #edf8ff;
+}
+header .back{
+	height: 100%;
+	width: 0.25rem;
+	background: url('../img/jt-back.png') no-repeat center;
+	background-size: 0.25rem 0.41rem;
+}
+header .title{
+	font-size: 0.38rem;
+	color: #4ebbfe;
+	line-height: 0.86rem;
+	background: #fff;
+}
+header .list{
+	width: 0.48rem;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: #fff;
+}
+
+/* 图片 */
+.banner{
+	width: 100%;
+	height: 6.93rem;
+	margin-top: 0.2rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background:linear-gradient(#FBFEFF,#fff);
+}
+.banner img{
+	width: 3.3rem;
+	height: 3.42rem;
+}
+
+/* 内容 */
+.content p{
+	font-size: 0.3rem;
+	color: #646666;
+	padding-left: 0.24rem;
+}
+.content .info{
+	color: #AFB1B2;
+	font-size: 0.22rem;
+	padding-top: 0.15rem;
+	line-height: 0.3rem;
+}
+.content .price{
+	height: 0.71rem;
+	width: 100%;
+	padding: 0 0.24rem;
+	display: flex;
+	justify-content: space-between;
+}
+.content .price .left{
+	width: 3.51rem;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.content .price .left .newprice{
+	width: 1.74rem;
+	height: 100%;
+}
+.content .price .left .newprice p{
+	padding: 0;
+	color: #fbb548;
+	font-size: 0.26rem;
+	line-height: 0.71rem;
+}
+.content .price .left .yuanprice{
+	width: 1.74rem;
+	height: 100%;
+}
+.content .price .left .yuanprice p{
+	font-size: 0.2rem;
+	line-height: 0.71rem;
+	text-align: center;
+	padding: 0;
+}
+.content .price .right{
+	width: 1.28rem;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.content .price .right .bot1{
+	height: 0.05rem;
+	width: 0.05rem;
+	background: #36D681;
+	border-radius: 50%;
+}
+.content .price .right .word{
+	color: #AFB1B2;
+	font-size: 0.2rem;
+} 
+.content .price .right span {
+	color: #36a8fe;
+	font-size: 0.24rem;
+	display: inline;
+}
+.content .shop{
+	height: 0.88rem;
+	width: 100%;
+	/* background: red; */
+	border-bottom: 0.01rem solid #F0F5F7;
+	border-top: 0.01rem solid #F0F5F7;
+	padding: 0 0.24rem;
+	display: flex;
+	align-items: center;
+}
+.content .shop .shop_pic{
+	height: 0.58rem;
+	width: 0.58rem;
+	background: url('../img/spxq-juan.png') no-repeat center;
+	background-size: cover;
+	margin-top: 0.1rem;
+}
+.content .shop p{
+	color: #ff844e;
+	font-size: 0.24rem;
+}
+.content .shop .jian{
+	height: 0.4rem;
+	width: 1.8rem;
+	background:linear-gradient(to right,#FF953B,#FFC83B);
+	margin-left: 0.2rem;
+	border-radius: 0.2rem;
+	box-shadow: 0 0.02rem 0.16rem 0.02rem #ff8e51;
+}
+.content .shop .jian p{
+	color: #fff;
+	text-align: center;
+	line-height: 0.4rem;
+	padding: 0;
+}
+.content .bottom{
+	height: 0.8rem;
+	width: 100%;
+	padding: 0 0.24rem;
+	display: flex;
+	justify-content: flex-start;
+}
+.content .bottom .one{
+	width: 2rem;
+	height: 100%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.content .bottom .one .bot1{
+	height: 0.05rem;
+	width: 0.05rem;
+	background: #36D681;
+	border-radius: 50%;
+}
+.content .bottom .one span {
+	color: #36a8fe;
+	font-size: 0.24rem;
+	display: inline;
+	margin-left: 0.2rem;
+}
+
+/* 底部 */
+
+footer{
+    width: 100%;
+    height: 1.08rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    box-sizing: border-box;
+    padding: 0 .54rem;
+    background:#F6FBFF;
+}
+footer ul{
+    width: 100%;
+    height: 100%;
+    background:#F6FBFF;
+    display: flex;
+    align-items: center;
+}
+footer li{
+    width: 1rem;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding-top: .08rem;
+    float: left;
+}
+footer li:nth-child(2){
+	width: 1.2rem;
+}
+footer li img{
+    height: .45rem;
+    color: #59c3fe;
+    line-height: .55rem;
+    display: block;
+    margin:0 auto;
+    margin-top:0.1rem
+}
+footer li h3{
+    display: flex;
+    font-size: .22rem;
+    color: #59c3fe;
+	margin-top: 0.05rem;
+	font-weight: 400;
+}
+footer li .green{
+	color: #2ed977;
+}
+footer .jian{
+	height: 0.61rem;
+	width: 1.97rem;
+	background:linear-gradient(to right,#37DF72,#32D698);
+	margin-left: 0.2rem;
+	border-radius: 0.4rem;
+	box-shadow: 0 0.02rem 0.16rem 0.02rem #37df74;	
+	float: left;
+	margin-left: 0.7rem;
+}
+footer .jian p{
+	color: #fff;
+	text-align: center;
+	line-height: 0.61rem;
+	padding: 0;
+	font-size: 0.2rem;
+}
+footer .jian1{
+	height: 0.61rem;
+	width: 1.97rem;
+	background:#3BACFE;	
+	border-radius: 0.4rem;
+	box-shadow: 0 0.02rem 0.16rem 0.02rem #3bacfe;
+	float: left;
+	margin-left: 0.2rem;
+
+}
+footer .jian1 p{
+	color: #fff;
+	text-align: center;
+	line-height: 0.61rem;
+	padding: 0;
+	font-size: 0.2rem;
+}

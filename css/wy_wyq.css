@@ -2,7 +2,7 @@
 * @Author: Lenovo
 * @Date:   2018-09-27 19:25:03
 * @Last Modified by:   Lenovo
-* @Last Modified time: 2018-09-27 20:45:19
+* @Last Modified time: 2018-09-28 23:07:17
 */
 *{
     padding: 0;
@@ -24,7 +24,6 @@ header{
     padding: 0 0.24rem;
     display: flex;
     justify-content: space-between;
-    background: #fff;
 }
 header .back{
     height: 100%;
@@ -36,7 +35,6 @@ header .title{
     font-size: 0.38rem;
     color: #4ebbfe;
     line-height: 0.86rem;
-    background: #fff;
 }
 header .list{
     width: 0.48rem;
@@ -44,13 +42,11 @@ header .list{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #fff;
 }
 .Optin{
     padding: 0 .8rem;
     box-shadow: 0 .3rem .6rem .02rem #edf8ff;
     margin-bottom: .5rem;
-    background: #fff;
 }
 .Optin .change{
     height: 0.92rem;
@@ -58,7 +54,6 @@ header .list{
     padding: 0 0.88rem;
     display: flex;
     justify-content: space-between;
-    background: #fff;
 }
 .Optin .change .chang_box{
     width: 1.3rem;
@@ -66,7 +61,6 @@ header .list{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #fff;
 }
 .Optin .change .chang_box p{
     color: #3bacfe;
@@ -85,7 +79,6 @@ header .list{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #fff;
 }
 .Optin .change .chang_box1 p{
     color: #3bacfe;

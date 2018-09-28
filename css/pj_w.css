@@ -2,7 +2,7 @@
 * @Author: Lenovo
 * @Date:   2018-09-27 18:04:29
 * @Last Modified by:   Lenovo
-* @Last Modified time: 2018-09-27 19:23:57
+* @Last Modified time: 2018-09-28 23:17:45
 */
 header{
 	height: 0.86rem;
@@ -46,7 +46,7 @@ header .list{
 .option .option-box{
 	height: 0.73rem;
 	width: 1.33rem;
-	color: #3BACFE;
+	color: #90D0FE;
 	font-size: 0.2rem;
 	text-align: center;
 	line-height: 0.53rem;
@@ -54,12 +54,22 @@ header .list{
 	border-bottom: 0.03rem solid #fff;
 }
 .option .active{
+	color: #3BACFE;
 	border-bottom: 0.03rem solid #3BACFE;
 }
 
 /* 内容 */
+.contentbox{
+	width: 100%;
+	height: 7rem;
+	position: relative;
+	margin-top: 0.4rem;
+}
 .content{
-	margin-top: 0.3rem;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
 }
 .content ul{
 	width: 100%;

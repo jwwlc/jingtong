@@ -1,10 +1,9 @@
 /*
 * @Author: Lenovo
-* @Date:   2018-09-27 20:54:18
+* @Date:   2018-09-28 17:16:11
 * @Last Modified by:   Lenovo
-* @Last Modified time: 2018-09-28 22:56:36
+* @Last Modified time: 2018-09-28 23:31:59
 */
-
 header{
     height: 0.86rem;
     width: 100%;
@@ -80,7 +79,6 @@ section{
     height: 0.44rem;
     background-color: #a4e0bd;
     border-radius: 0.21rem;
-
 }
 .sousuo .juxin .click img{
     height: 0.48rem;
@@ -234,8 +232,8 @@ main{
     justify-content: space-between;
     align-items: center;
     padding: 0 1.46rem;
-    width: 100%;
     background: #FBFEFF;
+    width: 100%;
 }
 .option .option-box{
     height: 0.53rem;
@@ -255,20 +253,54 @@ main{
 
 
 
+/* 2 */
+.change{
+    height: 0.72rem;
+    width: 100%;
+    background: #3BACFE;
+    padding: 0 0.38rem;
+    display: flex;
+    justify-content: space-between;
+}
+.change .table{
+    width: 1.37rem;
+    height: 100%;
+    color: #B1DEFF;
+    font-size: 0.2rem;
+    text-align: center;
+    line-height: 0.72rem;
+    border-bottom: 0.04rem solid #3BACFE;
+}
+.change .active1{
+    color: #fff;
+    border-bottom: 0.04rem solid #fff;
+}
+
+
+
+
+
+
+
+
 
 
 
 
 
 /* 全部服务 */
-.server{
-    background:#FAFDFE;
-    height: 7.54rem;
+.serverbox{
     width: 100%;
+    height:7.54rem;
+    position: relative;
+}
+.server{
+    width: 100%;
+    background:#FAFDFE;
     position: absolute;
-    left:0;
-    top: 5.95rem;
-    display: none;
+    top: 0;
+    left: 0;
+    /* height: 7.54rem; */
 }
 
 .server .baglist{
@@ -288,7 +320,7 @@ main{
     height: 2rem;
 }
 .server ul li{
-   	padding-top: 0.3rem;
+    margin: 0.3rem 0;
     height: 2rem;
     padding: 0 0.24rem;
     display: flex;
@@ -414,129 +446,6 @@ main{
 
 
 
-/* 2 */
-.change{
-    height: 0.75rem;
-    width: 100%;
-    padding: 0 0.38rem;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 0.2rem;
-}
-.change .table{
-    width: 1.37rem;
-    height: 100%;
-    color: #8CCFFE;
-    font-size: 0.2rem;
-    text-align: center;
-    border-bottom: 0.04rem solid #FBFEFF;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-between;
-}
-.change .active1{
-    color: #3BACFE;
-    border-bottom: 0.04rem solid #3BACFE;
-}
-
-/* 内容 */
-.contentbox .content{
-    margin-top: 0.3rem;
-    position: absolute;
-    top: 1rem;
-    left: 0;
-    display: none;
-}
-.content ul{
-    width: 100%;
-    height: 100%;
-}
-.content ul li{
-    height: 2.33rem;
-    width:7.02rem;
-    padding: 0 0.24rem;
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 0.01rem solid #F0F5F7;
-    margin-left: 0.24rem;
-}
-.content ul li .left{
-    height: 0.92rem;
-    width: 0.92rem;
-    background: url('../img/pj-touxiang.png') no-repeat center;
-    background-size: cover;
-    margin-top: 0.15rem;
-}
-.content ul li .right{
-    height: 100%;
-    width: 6.11rem;
-    padding-top: 0.5em;
-}
-.content ul li .right .head{
-    height: 0.3rem;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-}
-.content ul li .right p{
-    color:#cfcfcf;
-    font-size: 0.2rem;
-    padding-left: 0.2rem;
-}
-.content ul li .right .head .starpic{
-    width: 1.43rem;
-    display: flex;
-    justify-content: space-between;
-    margin-right: 1.5rem;
-}
-.content ul li .right .head .starpic .imgbox{
-    height: 0.3rem;
-    width: 0.3rem;
-    background: url('../img/starwu.png') no-repeat center;
-    background-size: 0.2rem 0.2rem;
-}
-.content ul li .right .head .starpic .imgbox1{
-    height: 0.3rem;
-    width: 0.3rem;
-    background: url('../img/starblue.png') no-repeat center;
-    background-size: 0.2rem 0.2rem;
-}
-.content ul li .right .head .date{
-    color: #9ed5ff;
-    font-size: 0.22rem;
-}
-.content ul li .right .title p{
-    font-size: 0.26rem;
-    color: #646666;
-    padding: 0.15rem 0.2rem;
-}
-.content ul li .right .pics{
-    height: 0.5rem;
-    width: 100%;
-}
-.content ul li .right .pics .xin{
-    height: 0.4rem;
-    width: 0.4rem;
-    float: left;
-    margin-left: 4.3rem;
-    margin-top: 0.1rem;
-    background: url('../img/pj-xin.png') no-repeat center;
-    background-size: cover;
-}
-.content ul li .right .pics  .pingjia{
-    height: 0.4rem;
-    width: 0.4rem;
-    float: right;
-    margin-top: 0.1rem;
-    background: url('../img/pj-pinlun.png') no-repeat center;
-    background-size: cover;
-}
 
 
 
-.contentbox{
-    height: 7.54rem;
-    width: 100%;
-
-}

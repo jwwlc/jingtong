@@ -1,10 +1,9 @@
 /*
 * @Author: Lenovo
-* @Date:   2018-09-27 20:54:18
+* @Date:   2018-09-28 17:44:43
 * @Last Modified by:   Lenovo
-* @Last Modified time: 2018-09-28 22:56:36
+* @Last Modified time: 2018-09-28 18:23:56
 */
-
 header{
     height: 0.86rem;
     width: 100%;
@@ -80,7 +79,6 @@ section{
     height: 0.44rem;
     background-color: #a4e0bd;
     border-radius: 0.21rem;
-
 }
 .sousuo .juxin .click img{
     height: 0.48rem;
@@ -234,8 +232,7 @@ main{
     justify-content: space-between;
     align-items: center;
     padding: 0 1.46rem;
-    width: 100%;
-    background: #FBFEFF;
+    /* background: #fff; */
 }
 .option .option-box{
     height: 0.53rem;
@@ -251,165 +248,6 @@ main{
 .option .action{
     background: #3BACFE;
     color: #fff;
-}
-
-
-
-
-
-
-
-
-/* 全部服务 */
-.server{
-    background:#FAFDFE;
-    height: 7.54rem;
-    width: 100%;
-    position: absolute;
-    left:0;
-    top: 5.95rem;
-    display: none;
-}
-
-.server .baglist{
-    height: 2rem;
-    width: 100%;
-    padding: 0 0.24rem;
-    margin: 0.3rem 0;
-    display: flex;
-    justify-content: space-between;
-}
-.server .baglist .pics{
-    width: 2rem;
-    height: 2rem;
-}
-.server .baglist .content{
-    width: 4.76rem;
-    height: 2rem;
-}
-.server ul li{
-   	padding-top: 0.3rem;
-    height: 2rem;
-    padding: 0 0.24rem;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 0.5rem;
-}
-.server ul li .pic{
-    height: 2rem;
-    width: 2rem;
-    background: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 0.1rem;
-    margin-top: 0.2rem;
-    box-shadow: 0 0 0.1rem 0.05rem rgba(245,247,248,1);
-}
-
-.server ul li .pic img{
-    height: 75%;
-    width:65% ;
-}
-.server ul li .text{
-    width: 4.76rem;
-    height: 100%;
-}
-.server ul li .text h4{
-    margin-top: 0.1rem;
-    font-size: 0.3rem;
-    color: #646666;
-}
-.server ul li .text h5{
-    font-size: 0.22rem;
-    font-weight: 400;
-    color: #B2B4B5;
-    margin-top: 0.05rem;
-}
-.server ul li .text .pingcase{
-    height: 0.6rem;
-    width: 100%;
-    border-top: 0.01rem solid #F0F5F7;
-    margin-top: 0.17rem;
-    display: flex;
-    justify-content: space-between;
-}
-.server ul li .text .ping{
-    height: 0.6rem;
-    width: 2.7rem;
-    display: flex;
-    justify-content: space-between;
-}
-.server ul li .text .ping .pingbox{
-    width: 1.12rem;
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.server ul li .text .ping .pingbox .bot{
-    height: 0.05rem;
-    width: 0.05rem;
-    background: #44B5FF;
-    border-radius: 50%;
-}
-.server ul li .text .ping .pingbox .bot1{
-    height: 0.05rem;
-    width: 0.05rem;
-    background: #36D681;
-    border-radius: 50%;
-}
-.server ul li .text .ping .pingbox .word{
-    color: #AFB1B2;
-    font-size: 0.2rem;
-}
-.server ul li .text .ping .pingbox span {
-    color: #36a8fe;
-    font-size: 0.24rem;
-    display: inline;
-}
-.server ul li .text .ping .pingbox .flog{
-    color: #b9e1ff;
-    font-size: 0.24rem;
-    display: inline;
-}
-.server ul li .pingcase .price{
-    height: 100%;
-    width: 1.14rem;
-    color: #fbb548;
-    font-size: 0.26rem;
-    text-align: center;
-    line-height:0.6rem; 
-}
-.server ul li .bag{
-    height: 0.33rem;
-    width: 100%;
-}
-.server ul li .bag .bag_pic{
-    height: 0.35rem;
-    width: 0.35rem;
-    /* background: url('../img/baodashi.png') center cover; */
-}
-.server ul li .sale{
-    width: 100%;
-    height: .44rem;
-    overflow: hidden;
-    margin-top: .03rem;
-    display: flex;
-    justify-content: flex-start;
-}
-.server ul li .sale .box{
-    width: .3rem;
-    height: .3rem;
-    float: left;
-    margin-right: .1rem;
-    background: url("../img/baodashi.png") no-repeat center;
-    background-size: cover;
-}
-.server ul li .sale .text{
-    font-size: 0.16rem;
-    color: #afb1b2;
-    float: right;
 }
 
 
@@ -441,102 +279,90 @@ main{
 }
 
 /* 内容 */
-.contentbox .content{
-    margin-top: 0.3rem;
-    position: absolute;
-    top: 1rem;
-    left: 0;
-    display: none;
+.content{
+	margin-top: 0.3rem;
 }
 .content ul{
-    width: 100%;
-    height: 100%;
+	width: 100%;
+	height: 100%;
 }
 .content ul li{
-    height: 2.33rem;
-    width:7.02rem;
-    padding: 0 0.24rem;
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 0.01rem solid #F0F5F7;
-    margin-left: 0.24rem;
+	height: 2.33rem;
+	width:7.02rem;
+	padding: 0 0.24rem;
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 0.01rem solid #F0F5F7;
+	margin-left: 0.24rem;
 }
 .content ul li .left{
-    height: 0.92rem;
-    width: 0.92rem;
-    background: url('../img/pj-touxiang.png') no-repeat center;
-    background-size: cover;
-    margin-top: 0.15rem;
+	height: 0.92rem;
+	width: 0.92rem;
+	background: url('../img/pj-touxiang.png') no-repeat center;
+	background-size: cover;
+	margin-top: 0.15rem;
 }
 .content ul li .right{
-    height: 100%;
-    width: 6.11rem;
-    padding-top: 0.5em;
+	height: 100%;
+	width: 6.11rem;
+	padding-top: 0.5em;
 }
 .content ul li .right .head{
-    height: 0.3rem;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
+	height: 0.3rem;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
 }
 .content ul li .right p{
-    color:#cfcfcf;
-    font-size: 0.2rem;
-    padding-left: 0.2rem;
+	color:#cfcfcf;
+	font-size: 0.2rem;
+	padding-left: 0.2rem;
 }
 .content ul li .right .head .starpic{
-    width: 1.43rem;
-    display: flex;
-    justify-content: space-between;
-    margin-right: 1.5rem;
+	width: 1.43rem;
+	display: flex;
+	justify-content: space-between;
+	margin-right: 1.5rem;
 }
 .content ul li .right .head .starpic .imgbox{
-    height: 0.3rem;
-    width: 0.3rem;
-    background: url('../img/starwu.png') no-repeat center;
-    background-size: 0.2rem 0.2rem;
+	height: 0.3rem;
+	width: 0.3rem;
+	background: url('../img/starwu.png') no-repeat center;
+	background-size: 0.2rem 0.2rem;
 }
 .content ul li .right .head .starpic .imgbox1{
-    height: 0.3rem;
-    width: 0.3rem;
-    background: url('../img/starblue.png') no-repeat center;
-    background-size: 0.2rem 0.2rem;
+	height: 0.3rem;
+	width: 0.3rem;
+	background: url('../img/starblue.png') no-repeat center;
+	background-size: 0.2rem 0.2rem;
 }
 .content ul li .right .head .date{
-    color: #9ed5ff;
-    font-size: 0.22rem;
+	color: #9ed5ff;
+	font-size: 0.22rem;
 }
 .content ul li .right .title p{
-    font-size: 0.26rem;
-    color: #646666;
-    padding: 0.15rem 0.2rem;
+	font-size: 0.26rem;
+	color: #646666;
+	padding: 0.15rem 0.2rem;
 }
-.content ul li .right .pics{
-    height: 0.5rem;
-    width: 100%;
+.content ul li .right .pic{
+	height: 0.5rem;
+	width: 100%;
 }
-.content ul li .right .pics .xin{
-    height: 0.4rem;
-    width: 0.4rem;
-    float: left;
-    margin-left: 4.3rem;
-    margin-top: 0.1rem;
-    background: url('../img/pj-xin.png') no-repeat center;
-    background-size: cover;
+.content ul li .right .pic .xin{
+	height: 0.4rem;
+	width: 0.4rem;
+	float: left;
+	margin-left: 4.3rem;
+	margin-top: 0.1rem;
+	background: url('../img/pj-xin.png') no-repeat center;
+	background-size: cover;
 }
-.content ul li .right .pics  .pingjia{
-    height: 0.4rem;
-    width: 0.4rem;
-    float: right;
-    margin-top: 0.1rem;
-    background: url('../img/pj-pinlun.png') no-repeat center;
-    background-size: cover;
-}
-
-
-
-.contentbox{
-    height: 7.54rem;
-    width: 100%;
-
+.content ul li .right .pic .pingjia{
+	height: 0.4rem;
+	width: 0.4rem;
+	float: right;
+	margin-top: 0.1rem;
+	background: url('../img/pj-pinlun.png') no-repeat center;
+	background-size: cover;
 }

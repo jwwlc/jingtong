@@ -2,7 +2,7 @@
 * @Author: Lenovo
 * @Date:   2018-09-26 20:59:16
 * @Last Modified by:   Lenovo
-* @Last Modified time: 2018-09-27 15:57:54
+* @Last Modified time: 2018-09-28 18:37:14
 */
 *{
 	background: #FBFEFF;
@@ -62,6 +62,10 @@ header .list .dot{
 	font-size: 0.2rem;
 	text-align: center;
 	line-height: 0.53rem;
+}
+.option .active{
+	background: #3BACFE;
+	color: #fff;
 }
 
 /* 内容 */
@@ -299,7 +303,8 @@ footer li img{
     color: #59c3fe;
     line-height: .55rem;
     display: block;
-    margin:0 auto
+    margin:0 auto;
+     background:#F6FBFF;
 }
 footer li i{
     font-size: .45rem;
@@ -312,5 +317,5 @@ footer li h3{
     display: flex;
     font-size: .22rem;
     color: #59c3fe;
-
+	 background:#F6FBFF;
 }

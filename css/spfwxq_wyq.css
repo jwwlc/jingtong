@@ -1,0 +1,252 @@
+/*
+* @Author: Lenovo
+* @Date:   2018-09-28 11:55:45
+* @Last Modified by:   Lenovo
+* @Last Modified time: 2018-09-28 14:30:41
+*/
+
+
+*{
+	background: #FBFEFF;
+}
+header{
+	height: 0.86rem;
+	width: 100%;
+	padding: 0 0.24rem;
+	display: flex;
+	justify-content: space-between;
+	background: #fff;
+}
+header .back{
+	height: 100%;
+	width: 0.25rem;
+	background: url('../img/jt-back.png') no-repeat center;
+	background-size: 0.25rem 0.41rem;
+}
+header .title{
+	font-size: 0.38rem;
+	color: #4ebbfe;
+	line-height: 0.86rem;
+	/* font-weight: bold; */
+	background: #fff;
+}
+header .list{
+	width: 0.48rem;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: #fff;
+}
+header .list .dot{
+	background: #36a8fe;
+	height: 0.08rem;
+	width: 0.08rem;
+	border-radius: 50%;
+}
+
+/* banner */
+.banner{
+	height: 3.65rem;
+	width: 100%; 
+	position: relative;
+}
+.banner img{
+	height: 3.65rem;
+	width: auto;
+}
+
+/* 头像 */
+.banner .headpic{
+	height: 1.64rem;
+	width: 1.64rem;
+	background: #fff;
+	border-radius: 0.05rem;
+	position: absolute;
+	bottom: -1.04rem;
+	left: 0.24rem;
+	/* background: #fff; */
+}
+.banner .headpic img{
+	height: 1.63rem;
+	width: 1.42rem;
+}
+.banner .price{
+	color: #36a8fe;
+	font-size: 0.36rem;
+	margin-left: 2.1rem;
+	margin-top: 0.3rem;
+}
+
+/* 规格 */
+.guige{
+	height: 1.5rem;
+	width: 100%;
+	margin-top: 1.4rem;
+	padding-left: 0.24rem;
+}
+.one{
+	height: 0.28rem;
+	width: 100%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.guige .dot{
+	height: 0.05rem;
+	width: 0.05rem;
+	background: #44B5FF;
+}
+.guige .word{
+	font-size: 0.2rem;
+	color: #44B5FF;
+	margin-left: 0.1rem;
+}
+.guige .two{
+	height: 1.08rem;
+	width: 2.14rem;
+	background: #F1FAFF;
+	border-radius: 0.05rem;
+	margin-top: 0.2rem;
+	font-size: 0.24rem;
+	color: #44B5FF;
+	text-align: center;
+	line-height: 1.08rem;
+}
+
+/* 数量 */
+
+
+/* 规格 */
+.guige1{
+	height: 1.5rem;
+	width: 100%;
+	margin-top: 0.4rem;
+	padding-left: 0.24rem;
+}
+.one{
+	height: 0.28rem;
+	width: 100%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.guige1 .dot{
+	height: 0.05rem;
+	width: 0.05rem;
+	background: #36D681;
+}
+.guige1 .word{
+	font-size: 0.2rem;
+	color: #44B5FF;
+	margin-left: 0.1rem;
+}
+.guige1 .two1{
+	height: 0.6rem;
+	/* width: 100%; */
+	margin-top: 0.2rem;
+}
+.guige1 .two1 .jian{
+	width: 1.2rem;
+	height: 0.52rem;
+	background:#E7F6FF; 
+	font-size: 0.8rem;
+	color: #44B5FF;
+	text-align: center;
+	line-height: 0.42rem;
+	border-radius: 0.25rem;
+}
+.guige1 .two1 .jia{
+	width: 1.2rem;
+	height: 0.52rem;
+	background:#3BACFE; 
+	font-size: 0.5rem;
+	color: #fff;
+	text-align: center;
+	line-height: 0.42rem;
+	border-radius: 0.25rem;
+}
+.guige1 .math{
+	font-size: 0.26rem;
+	font-weight: bold;
+	color:#44B5FF;
+	margin: 0.25rem 0.3rem 0;
+}
+.guige1 .bottom{
+	display: flex;
+}
+
+
+
+/* 底部 */
+
+footer{
+    width: 100%;
+    height: 1.08rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    box-sizing: border-box;
+    padding: 0 .54rem;
+    background:#F1FAFF;
+}
+footer ul{
+    width: 100%;
+    height: 100%;
+    background:#F6FBFF;
+    display: flex;
+    align-items: center;
+}
+footer li{
+    width: 1rem;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding-top: .08rem;
+    float: left;
+    background:#F1FAFF;
+}
+
+footer .jian2{
+	height: 0.61rem;
+	width: 1.97rem;
+	background:linear-gradient(to right,#37DF72,#32D698);
+	margin-left: 0.2rem;
+	border-radius: 0.4rem;
+	box-shadow: 0 0.02rem 0.16rem 0.02rem #37df74;	
+	float: left;
+	margin-left: 0.7rem;
+}
+footer .jian2 p{
+	color: #fff;
+	text-align: center;
+	line-height: 0.61rem;
+	padding: 0;
+	font-size: 0.2rem;
+	height: 0.61rem;
+	width: 1.97rem;
+	border-radius: 0.4rem;
+	background:linear-gradient(to right,#37DF72,#32D698);
+}
+footer .jian1{
+	height: 0.61rem;
+	width: 1.97rem;
+	background:#3BACFE;	
+	border-radius: 0.4rem;
+	box-shadow: 0 0.02rem 0.16rem 0.02rem #3bacfe;
+	float: left;
+	margin-left: 0.2rem;
+
+}
+footer .jian1 p{
+	color: #fff;
+	text-align: center;
+	line-height: 0.61rem;
+	padding: 0;
+	font-size: 0.2rem;
+	background:#3BACFE;	
+	height: 0.61rem;
+	width: 1.97rem;
+	border-radius: 0.4rem;
+}
