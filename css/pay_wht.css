@@ -1,0 +1,164 @@
+header{
+	height: 0.86rem;
+	width: 100%;
+	padding: 0 0.24rem;
+	display: flex;
+	justify-content: space-between;
+	/* box-shadow: 0 .005rem 0 rgba(0, 0, 0, 0.2); */
+	margin-top: .38rem;
+}
+header .back{
+	height: 100%;
+	width: 0.25rem;
+	background: url('../img/Back.png') no-repeat center;
+}
+header .title{
+	font-size: 0.38rem;
+	color: #4ebbfe;
+	line-height: 0.86rem;
+}
+header .list{
+	width: 0.48rem;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+header .list .dot{
+	background: #36a8fe;
+	height: 0.08rem;
+	width: 0.08rem;
+	border-radius: 50%;
+}
+nav{
+	height: 1.87rem;
+	width: 100%;
+	padding: 0 0.34rem;
+	/* background-color: red; */
+}
+nav .middle{
+	padding-bottom: .64rem;
+	padding-top: .90rem;
+	width: 38%;
+	margin: 0 auto;
+	/* background-color: blue; */
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+nav .middle .leftmode{
+	width: .1rem;
+	height: .05rem;
+	border-radius: 25%;
+	background: green;
+}
+nav .middle .price{
+	font-size: .26rem;
+	font-weight: bold;
+	display: inline-block;
+}
+nav .middle .price p{
+	font-size: .26rem;
+	font-weight: bold;
+	color: red;
+	display: inline-block;
+}
+
+nav .middle .rightmode{
+	width: .1rem;
+	height: .05rem;
+	border-radius: 25%;
+	background: green;
+}
+footer{
+	width: 100%;
+	height: 4rem;
+	padding: 0 .24rem;
+	/* background-color: red; */
+}
+footer .top{
+	width: 100%;
+	height: 1.4rem;
+	/* display: flex; */
+	/* justify-content: space-between;
+	align-items: center; */
+
+
+}
+footer .bottom{
+	width: 100%;
+	height: 1.58rem;
+	/* background-color: blue; */
+}
+footer .top .top_left{
+	width: 1.08rem;
+	height: 1.08rem;
+	background-image: url('../img/weixin_wht.png');
+	background-size: 1.08rem 1.08rem;
+	float: left;
+	margin-top: .2rem;
+}
+footer .top_middlel{
+	font-size: .26rem;
+	font-weight: bolder;
+	float: left;
+	margin-left: .24rem;
+	text-align: center;
+	margin-top: .55rem;
+}
+footer .top_middler{
+	/* width: 4rem; */
+	font-size: .26rem;
+	font-weight: bolder;
+	float: right;
+	text-align: center;
+	margin-top: .55rem;
+	margin-right: .28rem;
+}
+footer .top_middler span{
+	color: red;
+}
+footer .top_right{
+	background-image: url('../img/choice_wht.png');
+	/* background: no-repeat; */
+	background-size: 100% 100%;
+	/* background-position: center; */
+	height: .28rem;
+	width: .28rem;
+	float: right;
+	margin-top: .6rem;
+}
+footer .bottom .bottom_left{
+	width: 1.08rem;
+	height: 1.08rem;
+	background-image: url('../img/weixin_wht.png');
+	background-size: 1.08rem 1.08rem;
+	float: left;
+	margin-top: .2rem;
+}
+footer .bottom_middlel{
+	font-size: .26rem;
+	font-weight: bolder;
+	float: left;
+	margin-left: .24rem;
+	text-align: center;
+	margin-top: .55rem;
+}
+.box{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	margin-top: 1.18rem;
+}
+button{
+	width: 4.54rem;
+	height: .6rem;
+	background: linear-gradient(to right,#37E06F,#32D699);
+	border-style: none;
+	border-radius: .3rem;
+	color: #fff;
+	font-weight: bold;
+}
+
+
+

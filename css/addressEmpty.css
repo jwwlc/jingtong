@@ -1,0 +1,62 @@
+header{
+    height: 0.86rem;
+    width: 100%;
+    padding: 0 0.24rem;
+    display: flex;
+    justify-content: space-between;
+    /* box-shadow: 0 .005rem 0 rgba(0, 0, 0, 0.2); */
+    margin-top: .38rem;
+}
+header .back{
+    height: 100%;
+    width: 0.25rem;
+    background: url('../img/Back.png') no-repeat center;
+}
+header .title{
+    font-size: 0.38rem;
+    color: #4ebbfe;
+    line-height: 0.86rem;
+}
+header .list{
+    width: 0.48rem;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .list .dot{
+    /* background: #36a8fe; */
+    height: 0.08rem;
+    width: 0.08rem;
+    border-radius: 50%;
+}
+/*中间部分*/
+.empty{
+    width:100%;
+    height:auto;
+    text-align: center;
+    margin-top: 3.6rem;
+}
+.empty img{
+    width:3.24rem;
+    height: 3.24rem;
+}
+.empty-title{
+    font-size: 0.26rem;
+    color:rgba(0,0,0,0.4);
+}
+.add-btn{
+    width:100%;
+    text-align: center;
+}
+.add-btn button{
+    width:1.96rem;
+    height:0.6rem;
+    border-radius:0.4rem;
+    color:#fff;
+    font-size: 0.22rem;
+    font-weight: bold;
+    border: 0;
+    box-shadow: 0 0.01rem 0.1rem 0.03rem rgba(51,217,143,0.7);
+    background-image: -webkit-linear-gradient(left,#37E070,#32D698);
+}

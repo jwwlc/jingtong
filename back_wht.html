@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>申请退款退货</title>
+    <!-- <script src="js/drawback.js"></script> -->
+    <link rel="stylesheet" href="css/back_wht.css">
+    <!-- <link rel="stylesheet" href="css/rem.css"> -->
+    <link rel="stylesheet" href="css/base.css">
+    <script src="js/rem.js"></script>
+</head>
+<body>
+    <!--头部-->
+    <header>
+        <div class="back">
+            <i class="iconfont icon-fanhui"></i>
+        </div>
+        <h1 class="title">申请退款退货</h1>
+        <div class="all-head-right" style="background: none"></div>
+    </header>
+    <!--退货列表-->
+    <section>
+        <div class="bottomBox">
+            <div class="picture ">
+                <img src="" alt="">
+                <div class="detail">
+                    <h2 class="changewidth">潜水艇高端水龙头</h2>
+                    <div >ECCO1-001Lw</div>
+                    <div class="ws">商品规格潜水艇高端水龙头</div>
+                    <div class="wc">￥60
+                        <span>+1</span>
+                    </div>
+                </div>
+            </div>
+            <div  class="price">
+                <span></span>实付款：￥60.00
+            </div>
+        </div>
+        <div class="back pleaseSelect">
+            <div class="ztk">
+                <div class="dot"></div>
+                <div class="tuihuo">退货<span>状态</span></div>
+            </div>
+            <div class="xuanze">请选择</div>
+        </div>
+      <!--   <div class="back buyworry">
+            <p class="back-left">退款<span>原因</span></p>
+            <p class="back-right">买错了 </p>
+        </div>
+        <div class="count">
+            <div class="back-left">
+                <div>
+                    退款<span>金额</span>
+                    <small>(最多￥78.00，含发货邮费)</small>
+                </div>
+                <div class="count-money">￥60.00</div>
+            </div>
+        </div>
+        <div class="reason">
+            <textarea name="" id="" placeholder="退款说明"></textarea>
+        </div>
+        <div class="back green">
+            <div class="back-left">
+                上传<span>凭证</span>
+                <small>(最多6张)</small>
+            </div>
+            <div class="camera">
+                <i class="iconfont icon-zhaoxiangji"></i>
+            </div>
+        </div>
+        <div class="bconfirm">
+            <button>提交</button>
+        </div> -->
+    </section>
+    <!--请选择弹出框-->
+    <div class="modal">
+        <div class="pro-status">
+            <div class="date-top">
+                <span>退货</span>状态
+                <span class="close">×</span>
+            </div>
+            <div class="date-body">
+                <div class="madalList">
+                    <input type="radio" class="rod" name="option" id="done" checked>
+                    <label for="done">已收到货</label>
+                </div>
+                <div class="madalList listSelected">
+                    <input type="radio" class="rod" name="option" id="undone">
+                    <label for="undone">未收到货</label>
+                </div>
+            </div>
+            <div class="bconfirm btn-close1">
+                <button>关闭</button>
+            </div>
+        </div>
+    </div>
+    <!--买错了弹出框-->
+    <div class="modal Modal-worry">
+        <div class="pro-status">
+            <div class="date-top">
+                <span>退款</span>原因
+                <span class="close">×</span>
+            </div>
+            <div class="date-body">
+                <div class="madalList">
+                    <input type="radio" class="rod" name="option" id="back" checked>
+                    <label for="back">退运费</label>
+                </div>
+                <div class="madalList listSelected">
+                    <input type="radio" class="rod" name="option" id="size" >
+                    <label for="size"> 大小/尺寸与商品描述不符</label>
+                </div>
+                <div class="madalList ">
+                    <input type="radio" class="rod" name="option" id="col" >
+                    <label for="col"> 颜色/款式/型号与商品描述不符</label>
+                </div>
+                <div class="madalList ">
+                    <input type="radio" class="rod" name="option" id="caiz" >
+                    <label for="caiz"> 材质与商品描述不符</label>
+                </div>
+                <div class="madalList ">
+                    <input type="radio" class="rod" name="option" id="zuogong" >
+                    <label for="zuogong"> 做工粗糙有瑕疵</label>
+                </div>
+                <div class="madalList ">
+                    <input type="radio" class="rod" name="option" id="mag" >
+                    <label for="mag"> 质量问题</label>
+                </div>
+            </div>
+            <div class="bconfirm btn-close2">
+                <button>关闭</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

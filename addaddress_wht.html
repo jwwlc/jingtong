@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width,initial-scale=1.0 user-scalable=no">
+    <title>Title</title>
+    <!-- <script src="js/rem.js"></script> -->
+    <!--<link rel="stylesheet" href="css/all.css">-->
+    <link rel="stylesheet" href="css/addaddress_wht.css">
+    <link rel="stylesheet" href="css/rem.css">
+    <link rel="stylesheet" href="css/base.css">
+</head>
+<body>
+<header>
+        <div class="back"></div>
+        <div class="title">添加地址</div>
+        <div class="list">
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+        </div>
+    </header>
+<div class="Content_line"></div>
+<div class="Content_box">
+    <div class="Contact_box">
+        <div class="Contact_box_contact">
+            <div class="top"><div class="spot"></div>联系人</div>
+            <div class="bottom">
+                <input type="text" placeholder="姓名">
+            </div>
+        </div>
+        <div class="Contact_box_contact">
+            <div class="top"><div class="spot"></div>联系方式</div>
+            <div class="bottom">
+                <input type="text" placeholder="电话">
+            </div>
+        </div>
+        <div class="Contact_box_contact dingwei">
+            <div class="top"><div class="spot"></div>服务地址</div>
+            <div class="bottom">
+                <input type="text">
+            </div>
+            <div class="tiaozhuan">＞</div>
+        </div>
+        <div class="Contact_box_contact">
+            <div class="top"><div class="spot"></div>门牌号</div>
+            <div class="bottom">
+                <input type="text">
+            </div>
+        </div>
+    </div>
+    <button class="Button">保存</button>
+</div>
+</body>
+<script>
+let tiaozhuan=document.querySelector(".tiaozhuan");
+let iconFanhui=document.querySelector(".icon-fanhui");
+let Button=document.querySelector(".Button")
+console.log(tiaozhuan,iconFanhui,Button);
+tiaozhuan.onclick=function () {
+    open("L-address1.html");
+}
+iconFanhui.onclick=function () {
+    open("addressEmpty.html");
+    close();
+}
+Button.onclick=function (ev) {
+    open("commonaddress.html");
+    close();
+}
+</script>
+</html>
