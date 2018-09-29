@@ -1,0 +1,169 @@
+header{
+	height: 0.86rem;
+	width: 100%;
+	padding: 0 0.24rem;
+	display: flex;
+	justify-content: space-between;
+	box-shadow: 0rem 0 0.4rem 0.1rem #EDF8FF;
+}
+header .back{
+	height: 100%;
+	width: 0.25rem;
+	background: url('../img/back.png') no-repeat center;
+	background-size: 0.25rem 0.41rem;
+}
+header .title{
+	font-size: 0.38rem;
+	color: #4ebbfe;
+	line-height: 0.86rem;
+}
+header .list{
+	width: 0.25rem;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+/* header .list .dot{
+	background: #36a8fe;
+	height: 0.08rem;
+	width: 0.08rem;
+	border-radius: 50%;
+} */
+nav{
+	height: 1.87rem;
+	width: 100%;
+	padding: 0 0.34rem;
+	/* background-color: red; */
+}
+.content{
+	width: 100%;
+	height: 3.6rem; 
+	overflow: hidden;
+}
+nav .money{
+	width: calc(100% - 0.6rem);
+	height: calc(100% - 2.06rem);
+	margin: 0 auto;
+	position: relative;
+	border-bottom: 0.01rem solid #F3F6F7;
+}
+nav .money .dot1{
+	width: 0.18rem;
+	height: 0.13rem;
+	position: absolute;
+	top: 0.7rem;
+	left: 2.02rem;
+	background: url('../img/dot.png') no-repeat center;
+	background-size: 100%;
+}
+nav .money .dot2{
+	width: 0.18rem;
+	height: 0.13rem;
+	position: absolute;
+	top: 0.7rem;
+	left: 4.18rem;
+	background: url('../img/dot.png') no-repeat center;
+	background-size: 100%;
+}
+nav .money .number{
+	width: 2.04rem;
+	height: 0.32rem;
+	line-height: 0.32rem;
+	text-align: center;
+	padding-top: 0.58rem;
+	margin-right: 0.1rem;
+	margin: 0 auto;
+	font-size: 0.24rem;
+	color: #4B4C4C;
+}
+nav .money .number span{
+	font-size: 0.33rem;
+	color: #32D796;
+	font-weight: bold;
+	letter-spacing: 0.03rem;
+}
+nav .money .number p{
+	float: left;
+	margin-left: 0.2rem;
+	font-size: 0.24rem;
+	color: #4B4C4C;
+	letter-spacing: 0.03rem;
+}
+nav .money .number pre{
+	float: right;
+	margin-right: 0.05rem;
+	font-size: 0.24rem;
+	color: #4B4C4C;
+	letter-spacing: 0.03rem;
+}
+footer{
+	width: 100%;
+	height: 4rem;
+	padding: 0 .24rem;
+	/* background-color: red; */
+}
+footer .top{
+	width: 100%;
+	height: 1.4rem;
+	/* display: flex; */
+	/* justify-content: space-between;
+	align-items: center; */
+}
+
+footer .top .top_left{
+	width: 1.22rem;
+	height: 1.22rem;
+	background-image: url('../img/weixin.png');
+	background-size: 1.22rem 1.22rem;
+	float: left;
+	margin-top: .2rem;
+}
+footer .top_middlel{
+	font-size: .26rem;
+	float: left;
+	margin-left: .16rem;
+	text-align: center;
+	margin-top: .55rem;
+}
+footer .top_middler{
+	/* width: 4rem; */
+	font-size: .26rem;
+	font-weight: bolder;
+	float: right;
+	text-align: center;
+	margin-top: .55rem;
+	margin-right: .28rem;
+}
+footer .top_middler span{
+	color: red;
+}
+footer .top_right{
+	background-image: url('../img/choice.png');
+	/* background: no-repeat; */
+	background-size: 100% 100%;
+	/* background-position: center; */
+	height: .28rem;
+	width: .28rem;
+	float: right;
+	margin-top: .6rem;
+}
+.box{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	margin-top: 1.18rem;
+}
+button{
+	width: 4.54rem;
+	height: .6rem;
+	background: linear-gradient(to right,#37E06F,#32D699);
+	border-style: none;
+	border-radius: .3rem;
+	font-size: 0.18rem;
+	text-align: center;
+	color: white;
+}
+
+
+

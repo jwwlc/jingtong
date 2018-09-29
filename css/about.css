@@ -1,0 +1,165 @@
+header{
+	height: 0.86rem;
+	width: 100%;
+	padding: 0 0.24rem;
+	display: flex;
+	justify-content: space-between;
+	box-shadow: 0rem 0 0.4rem 0.1rem #EDF8FF;
+}
+header .back{
+	height: 100%;
+	width: 0.25rem;
+	background: url('../img/back.png') no-repeat center;
+	background-size: 0.25rem 0.41rem;
+}
+header .title{
+	font-size: 0.38rem;
+	color: #4ebbfe;
+	line-height: 0.86rem;
+}
+header .list{
+	width: 0.25rem;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+/* header .list .dot{
+	background: #36a8fe;
+	height: 0.08rem;
+	width: 0.08rem;
+	border-radius: 50%;
+} */
+.container{
+	width: calc(100% - 0.48rem);
+	height: 100%; 
+	margin: 0 auto;
+}
+.content{
+	width: 100%;
+	height: 3.6rem; 
+	overflow: hidden;
+	margin-bottom: 0.8rem;
+}
+.content .container{
+/* 	margin-top: 0.84rem; */
+	background: url('../img/notecase-bg.png') no-repeat center;
+	background-size: 6.8rem 2.34rem;
+}
+.content .notecase{
+	width: 1.16rem;
+	height: 2.06rem;
+	margin: 0 auto;
+}
+.content .notecase img{
+	width: 1.1rem;
+	height: 1.46rem;
+	margin-top: 0.73rem;
+}
+.content .name{
+	width: calc(100% - 0.6rem);
+	height: calc(100% - 2.06rem);
+	margin: 0 auto;
+	position: relative;
+	border-bottom: 0.01rem solid #F3F6F7;
+}
+.content .name .dot1{
+	width: 0.18rem;
+	height: 0.13rem;
+	position: absolute;
+	top: 0.7rem;
+	left: 2.02rem;
+	background: url('../img/dot.png') no-repeat center;
+	background-size: 100%;
+}
+.content .name .dot2{
+	width: 0.18rem;
+	height: 0.13rem;
+	position: absolute;
+	top: 0.7rem;
+	left: 4.18rem;
+	background: url('../img/dot.png') no-repeat center;
+	background-size: 100%;
+}
+.content .name .app{
+	width: 2.04rem;
+	height: 0.32rem;
+	line-height: 0.32rem;
+	text-align: center;
+	padding-top: 0.58rem;
+	margin-right: 0.1rem;
+	margin: 0 auto;
+	font-size: 0.24rem;
+	color: #4B4C4C;
+}
+.content .name .app p{
+	font-size: 0.24rem;
+	text-align: center;
+	color: #4B4C4C;
+	letter-spacing: 0.03rem;
+}
+.suggest{
+	width: 100%;
+	margin-bottom: 0.72rem;
+}
+.suggest .container{
+	width: calc(100% - 1.02rem);
+	height: 100%; 
+	margin: 0 auto;
+}
+.suggest .word{
+	line-height: 0.32rem;
+	font-size: 0.24rem;
+	color: #7D7F7F;
+	letter-spacing: 0.04rem;
+}
+.suggest .word p{
+	width: 100%;
+	margin-bottom: 0.56rem;
+}
+.suggest .word .last{
+	margin-bottom: 0;
+}
+footer .container{
+	width: calc(100% - 1.02rem);
+	height: 100%; 
+	margin: 0 auto;
+}
+footer .dot{
+	width: 0.18rem;
+	height: 0.13rem;
+}
+footer .text1{
+	width: 100%;
+	height: 1.06rem;
+	line-height: 1.06rem;
+	font-size: 0.25rem;
+	letter-spacing: 0.04rem;
+	color: #7D7F7F;
+	border-top: 0.01rem solid #F6F9FA;
+	border-bottom: 0.01rem solid #F6F9FA;
+	position: relative;
+}
+footer .text2{
+	width: 100%;
+	height: 0.84rem;
+	line-height: 0.84rem;
+	margin-top: ;
+	font-size: 0.25rem;
+	letter-spacing: 0.04rem;
+	color: #7D7F7F;
+	border-bottom: 0.01rem solid #F6F9FA;
+	position: relative;
+}
+footer .text1 p{
+	color: #4EBBFE;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+footer .text2 p{
+	color: #68CE8A;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
