@@ -9,7 +9,7 @@ header{
 header .back{
 	height: 100%;
 	width: 0.25rem;
-	background: url('../img/back.png') no-repeat center;
+	background: url('../img/Back.png') no-repeat center;
 	background-size: 0.25rem 0.41rem;
 }
 header .title{
@@ -48,8 +48,8 @@ header .list{
 }
 .content .notecase{
 	width: 1.16rem;
-	height: 2.06rem;
 	margin: 0 auto;
+	overflow: hidden;
 }
 .content .notecase img{
 	width: 1.1rem;
@@ -150,6 +150,19 @@ footer .text2{
 	color: #7D7F7F;
 	border-bottom: 0.01rem solid #F6F9FA;
 	position: relative;
+}
+footer .text1 img{
+	position: absolute;
+	left: 0;
+	top: 0.48rem;
+}
+footer .text2 img{
+	position: absolute;
+	left: 0;
+	top: 0.38rem;
+}
+footer span{
+	margin-left: 0.24rem;
 }
 footer .text1 p{
 	color: #4EBBFE;
