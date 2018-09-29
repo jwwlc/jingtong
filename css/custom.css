@@ -139,6 +139,30 @@ header .list{
 	top: 0;
 	box-shadow: 0 0.04rem 0.3rem 0.08rem #C5E7FF;
 }
+.content .client2 .client2_text img{
+	width: 0.32rem;
+	height: 0.28rem;
+	position: absolute;
+	left: 0.22rem;
+	top: 0.22rem;
+}
+.content .client2 .client2_text .yuy{
+    width: 2.5rem;
+    height: 0.4rem;
+    margin-left: 0.1rem;
+    position: absolute;
+    left: 0.6rem;
+    top: 0.12rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.content .client2 .client2_text .yuy span{
+    width:0.02rem;
+    background: #ffffff;
+}
+
 footer{
 	width: 100%;
 	height: 0.98rem;

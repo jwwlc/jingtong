@@ -154,8 +154,80 @@ main .text .texts .choose_num > span{
     text-align: center;
     margin-left: 0.1rem;
 }
+
+
+
+main .text .texts1{
+    width: 6.7rem;
+    height: 0.87rem;
+    padding: 0 0.18rem 0 0.18rem;
+    border-bottom: 0.02rem solid #fafafa;
+    display: flex;
+    justify-content: space-between;
+}
+main .text .texts1 .name{
+    width: 1rem;
+}
+main .text .texts1 .num{
+    width: 0.5rem;
+}
+main .text .texts1 .price{
+    width: 1.2rem;
+}
+main .text .texts1 p{
+    font-size: 0.24rem;
+    color: #8a8c8d;
+    line-height: 0.87rem;
+}
+main .text .texts1 p > span{
+    font-size: 0.24rem;
+}
+main .text .texts1 .choose_num{
+    width: 1.85rem;
+    height: 100%;
+}
+main .text .texts1 .choose_num .cut{
+    width: 0.74rem;
+    height: 0.44rem;
+    background-color: #f0f0f0;
+    border-radius:0.22rem;
+    font-size:0.27rem;
+    line-height: 0.44rem;
+    text-align: center;
+    float: left;
+    margin-top: 0.22rem;
+}
+main .text .texts1 .choose_num .add{
+    width: 0.74rem;
+    height: 0.44rem;
+    background-color: #f0f0f0;
+    border-radius:0.22rem;
+    font-size:0.27rem;
+    line-height: 0.44rem;
+    text-align: center;
+    float: right;
+    margin-top: 0.22rem;
+}
+main .text .texts1 .choose_num > span{
+/*     display: block;
+    width: 0.34rem;
+    height: 0.87rem; */
+    float: left;
+    line-height: 0.87rem;
+    font-size: 0.27rem;
+    color: #8a8c8d;
+    text-align: center;
+    margin-left: 0.1rem;
+}
+
+
+
+
+
+
+
 .upload{
-    width: 100%;;
+    width: 100%;
     height: auto;
     padding: 0 0.24rem;
 }
