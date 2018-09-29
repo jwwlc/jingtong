@@ -49,7 +49,7 @@ header img{
 .Optin .whole{
     display: flex;
     justify-content:space-between;
-    align-items:center;
+    margin-bottom: 0.1rem;
     width: 100%;
     height: auto;
 }
@@ -66,7 +66,7 @@ header img{
     padding: 0;
     font-size: .22rem;
     display: block;
-    line-height: .55rem;
+    line-height: 0.55rem;
 }
 .Optin .whole .optin1 span{
     font-size: .22rem;

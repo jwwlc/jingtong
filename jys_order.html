@@ -13,10 +13,11 @@
 <body>
 <header>
     <p>
-        <img src="img/Back.png" alt="">
+        <a href="jys_CommodityDetails.html"><img src="img/Back.png" alt=""></a>
         <span>填写订单</span></p>
 </header>
 <div class="information">
+    <a href="address_wht.html">
     <div class="conter">
         <div class="personal">
             <div class="box">
@@ -31,6 +32,7 @@
             </div>
         </div>
     </div>
+    </a>
 </div>
 <!--商品-->
 <div class="commodity">
@@ -150,9 +152,11 @@
         </div>
     </div>
     <div class="certain">
+        <a href="pay_wht.html">
         <div class="dian">
             确认
         </div>
+        </a>
     </div>
 </div>
 <div class="mask">
@@ -160,7 +164,7 @@
 </body>
 </html>
 <script>
-    $(".button .conter .right").click(function () {
+    $(".time .conter .right").click(function () {
         $(".eject").slideDown("slow");
         $(".mask").show();
     })

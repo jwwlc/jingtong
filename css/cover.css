@@ -1,0 +1,62 @@
+.cover{
+	width: 100%;
+	height: 100%;
+	 opacity: .8;
+	background-color: #fff;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 12;
+	display: none;
+}
+.cover_btn{
+	position: fixed;
+	top: 8.43rem;
+	left: 1.34rem;
+	right: 1.34rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	z-index: 15;
+}
+.llll{
+	 display: none;
+}
+
+.cover_leftbtn p{
+	font-size: .24rem;
+	font-weight: bold;
+	color: #ccc;
+	text-align: center;
+}
+.cover_rightbtn p{
+	font-size: .24rem;
+	font-weight: bold;
+	color: #ccc;
+	text-align: center;
+}
+.cover_leftbtn img{
+	width: 2.22rem;
+	height: 2.22rem;
+}
+.cover_rightbtn img{
+	width: 2.22rem;
+	height: 2.22rem;
+}
+.bottom_x{
+	font-size: .2rem;
+	font-weight: bold;
+	width: .5rem;
+	height: .5rem;
+	border-radius: 50%;
+	background-color: #F2F5F7;
+	/* background: blue; */
+	color: #333;
+	text-align: center;
+	position: absolute;
+	bottom: .4rem;
+	left: 3.5rem;
+	right: 3.5rem;
+	line-height: .5rem;
+	z-index: 15;
+}
