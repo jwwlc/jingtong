@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/xiaosi3.css">
+        <title>晋彤si3</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+        <script src="js/jquery-3.3.1.js"></script>
+    </head>
+    <body>
+    <header>
+        <div class="back">
+            <a href="xiaosi1.html"><img src="img/Back.png" alt=""></a>
+        </div>
+        <div class="title">购物车</div>    
+    </header>
+    <div class="container">
+        <input type="checkbox" id="awesome" checked/>
+            <label for="awesome"></label>
+        <h>宅快修&gt;</h>
+        <img src="img/jjj.png" alt="" class="fgh">
+        <div class="yuan"></div>
+        <img src="img/ass.png" alt="" class="fghs">
+        <div class="foi">潜水艇高端水龙头</div>
+        <div class="foi1">￥60</div>
+        <div class="jia js">-</div>
+       <div class="foi2  jq"> <span>01</span></div>
+        <div class="jia1 jj">+</div>
+        <div class="hej">合计：</div>
+         <div class="here"><span>￥162</span></div>
+         <div class="yuas">去下单</div>
+
+
+
+         <input type="checkbox" id="awesome" checked/>
+            <label for="awesome"></label>
+        <h>宅快修&gt;</h>
+        <img src="img/jjj.png" alt="" class="fgh">
+        <div class="yuan"></div>
+        <img src="img/ass.png" alt="" class="fghse">
+        <div class="foi">潜水艇高端水龙头</div>
+        <div class="foi1">￥60</div>
+        <div class="jia  js1">-</div>
+        <div class="foi2  jq1"><span>01</span></div>
+        <div class="jia1  jj1">+</div>
+        <div class="hej">合计：</div>
+        <div class="herr "><span>￥162</span></div>
+         <div class="yuas">去下单</div>
+         <div class="tyu"></div>
+
+
+
+
+        <input type="checkbox" id="awesome" checked/>
+            <label for="awesome"></label>
+         <h>全选</h>
+         <div class="dibu">
+             <img src="img/e.png" alt="" class="zui">
+             <div class="hes">合计：</div>
+             <div class="herr"><span>￥162</span></div>
+             <img src="img/e.png" alt="" class="zux">
+             <div class="ppo">运费￥20，已优惠￥20</div>
+             <div class="jie">结算</div>
+
+
+
+         </div>
+    </div>
+
+    </body>
+</html>
+    <script>
+    let btnL = $(".container .js");
+    let btnR = $(".container .jj");
+    let shuZ = $(".container .jq");
+    let num = 0;
+    let span = $(".here");
+    shuZ.html(num);
+    span.html(num*162);
+    console.log(btnL,btnR,span);
+    btnR.click(function () {
+        num ++ ;
+        shuZ.html(num);
+        span.html(num*162);
+
+    })
+    btnL.click(function () {
+        num -- ;
+        if (num <= 0){
+            num = 0;
+        }
+        shuZ.html(num);
+        span.html(num*162);
+
+    })
+    let btnD = $(".container .js1");
+    let btnF = $(".container .jj1");
+    let shuG = $(".container .jq1");
+    let num1 = 0;
+    let span1 = $(".herr");
+    shuG.html(num1);
+    span1.html(num1*162);
+    console.log(btnD,btnF);
+    btnF.click(function () {
+        num1 ++ ;
+        shuG.html(num1);
+        span1.html(num1*162);
+
+    })
+    btnD.click(function () {
+        num1 -- ;
+        if (num1 <= 0){
+            num = 0;
+        }
+        shuG.html(num1);
+        span1.html(num1*162);
+
+    })
+    </script>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/xiaoliu.css">
+        <script src="js/jquery-3.3.1.js"></script>
+        <title>晋彤s6</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+    </head>
+    <body>
+    <header>
+		<div class="back">
+		    <a href="xiaosi4.html"><img src="img/Back.png" alt=""></a>
+		</div>
+		<div class="title">密码设置</div>	
+	</header>
+	<div class="container">
+		<img src="img/hhh.png" alt="" class="diy">
+		 <div class="xing">设置6位支付密码</div>
+		 <img src="img/hhh.png" alt="" class="diy2">
+		 <img src="img/tiao.png" alt="" class="diy3">
+		 <ul>
+		 	<li >
+		 		
+<div class="quan">
+		 	     </div>
+		 	</li>
+				
+		 	<li>
+		 		<div class="quan">
+		 	     </div>
+		 	</li>
+		 	<li>
+		 		<div class="quan">
+		 	     </div>
+		 	</li>
+		 	<li>
+		 		<div class="quan">
+		 	     </div>
+		 	</li>
+		 	<li>
+		 		<div class="quan">
+		 	     </div>
+		 	</li>
+		 </ul>
+		 <img src="img/ty.png" alt=""  class="dft">
+		 <a href="xiaoliu1.html"><div class="xing33">下一步</div></a>
+	</div>
+    </body>
+</html>
+	<script>
+       let trr=$(".container ul li");
+       let quan=$(".container ul li .quan");
+       console.log(trr,quan);
+       quan.eq(0).css("display","block")
+       trr.click(function(){
+       		let i=$(this).index();
+       		quan.css("display","none").eq(i).css("display","block");
+       })
+    </script>
