@@ -2,7 +2,7 @@
 * @Author: Lenovo
 * @Date:   2018-09-28 22:14:51
 * @Last Modified by:   Lenovo
-* @Last Modified time: 2018-09-28 22:59:37
+* @Last Modified time: 2018-09-29 18:35:52
 */
 $(function(){
 
@@ -30,5 +30,5 @@ $(function(){
 	})
 	console.log(content);
 
-
+	// 水龙头订单加减
 })

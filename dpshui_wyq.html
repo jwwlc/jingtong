@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/rem.css">
     <link rel="stylesheet" href="css/dpshui_wyq.css">
+    <script src="js/jquery-3.3.1.js"></script>
 </head>
 <body>
     <header>
@@ -210,7 +211,7 @@
 
     <footer>
         <ul>
-            <li><a href="">
+            <li><a href="index.html">
                 <img src="img/home.png" alt="">
                 <h3>首页</h3>
             </a>
@@ -220,18 +221,18 @@
                 <h3>商城</h3>
             </a>
             </li>
-            <li><a href="">
+            <li><a href="index.html">
                 <img src="img/join.png" alt="">
                 <h3>入驻</h3>
             </a>
             </li>
             <li>
-                <a href="">
+                <a href="order.html">
                 <img src="img/order1.png" alt="">
                 <h3>订单</h3>
                 </a>
             </li>
-            <li><a href="">
+            <li><a href="xiaosi1.html">
                 <img src="img/personal.png" alt="">
                 <h3>我的</h3>
             </a>
@@ -241,3 +242,16 @@
 </footer>
 </body>
 </html>
+
+<script>
+    let option=$(".select .select-all .select1");
+    let word=$(".select .select-all .select1 .word");
+    option.eq(2).addClass('actives');
+    word.eq(2).css("color","#fff");
+    option.click(function(){
+        let i=$(this).index();
+        option.removeClass('actives').eq(i).addClass('actives');
+        word.css("color","#3bacfe").eq(i).css("color","#fff");
+    })
+    console.log(word);
+</script>

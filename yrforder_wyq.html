@@ -7,6 +7,7 @@
 	<link rel="stylesheet" href="css/base.css">
 	<link rel="stylesheet" href="css/rem.css">
 	<link rel="stylesheet" href="css/yrforder_wyq.css">
+    <script src="js/jquery-3.3.1.js"></script>
 </head>
 <body>
 	<header>
@@ -138,6 +139,90 @@
 </footer>
 <!--底部结束-->
 
-
+<!--优惠券弹出框开始-->
+    <div class="cover">
+        <div class="top">店铺优惠
+            <div class="cuo">
+        <img src="img/cuo.png" alt="">
+        </div>
+        </div>
+    <div class="bottom">
+        <ul>
+            <li>
+                <div class="box">
+                    <div class="fdot"></div>
+                    <div class="words">
+                    <p>满<span>100</span>元减去<span>20</span>元</p></div>
+                </div>
+                <div class="pic">
+                    
+                </div>
+            </li>
+            <li>
+                <div class="box">
+                    <div class="fdot"></div>
+                    <div class="words">
+                    <p>满<span>100</span>元减去<span>20</span>元</p></div>
+                </div>
+                <div class="pic">
+                    
+                </div>
+            </li>
+           <li>
+                <div class="box">
+                    <div class="fdot"></div>
+                    <div class="words">
+                    <p>不使用优惠</p></div>
+                </div>
+                <div class="pic">
+                    
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="close">
+        <div class="list">
+            <p>关闭</p>
+        </div>
+    </div>
+    <div class="cuo">
+        <img src="img/cuo.png" alt="">
+    </div>
+</div>
+<!--优惠券弹出框结束-->
 </body>
 </html>
+<script>
+    $(function(){
+    let cover=$(".cover")
+    let quan=$(".main ul li .right .one");
+    // console.log(quan);
+
+    quan.eq(0).click(function(){
+        cover.css("display","block");
+    })
+
+    //优惠小圈圈
+    
+    let dot=$(".cover .bottom ul li .pic");
+    let lis=$(".cover .bottom ul li");
+    lis.click(function(){
+        let i=$(this).index();
+        dot.css("display","none").eq(i).css("display","block");
+    })
+
+    let close=$(".cover .close .list");
+    close.click(function(){
+        cover.css("display","none");
+    })
+
+    let cuo=$(".cover .top .cuo");
+    cuo.click(function(){
+        cover.css("display","none");
+    })
+
+
+
+
+})
+</script>

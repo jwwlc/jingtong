@@ -2,7 +2,7 @@
 * @Author: Lenovo
 * @Date:   2018-09-28 21:26:41
 * @Last Modified by:   Lenovo
-* @Last Modified time: 2018-09-28 22:07:09
+* @Last Modified time: 2018-09-29 18:48:06
 */
 
 
@@ -34,6 +34,27 @@ $(function(){
 		cover.css("display","none");
 	})
 
+
+	let jia=$(".order .order-right .order-right-four .last .jia");
+	let jian=$(".order .order-right .order-right-four .last .jian");
+	let math=$(".order .order-right .order-right-four .last span");
+	let sum=$("footer .left .price span");
+	let num=1;
+	jia.click(function(){
+		num++;
+		math.html(num);
+		sum.html(num*60);
+	})
+	jian.click(function(){
+		num--;
+		if(num<0){
+			num=0;
+		}
+		math.html(num);
+		sum.html(num*60);
+	})
+
+	
 
 
 

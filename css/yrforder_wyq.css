@@ -2,7 +2,7 @@
 * @Author: Lenovo
 * @Date:   2018-09-28 14:33:59
 * @Last Modified by:   Lenovo
-* @Last Modified time: 2018-09-28 15:56:48
+* @Last Modified time: 2018-09-29 17:46:31
 */
 
 *{
@@ -399,3 +399,137 @@ footer .right{
 
 }
 /*底部结束*/
+
+
+/*优惠券弹出框开始*/
+.cover{
+    width: 100%;
+    height: 4.92rem;
+    background: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 0 0.25rem 0 0.23rem;
+    box-shadow: 10rem 10rem 10rem 100rem rgba(0, 0, 0, 0.4);
+    display: none;
+}
+
+.cover .top .cuo{
+    width:0.24rem;
+    height: 0.24rem;
+    position: absolute;
+    right:0.25rem;
+    top:0.23rem;
+}
+.cover .top .cuo img{
+    width: 100%;
+    height: 100%;
+}
+.cover .top{
+    height: 1.07rem;
+    font-size:0.2rem;
+    font-weight: normal;
+    font-stretch: normal;
+    padding-top: 0.24rem;
+    letter-spacing:0.01rem;
+    color: #41b2fc;
+    text-align: center;
+}
+
+.cover .bottom ul li{
+    width: 100%;
+    height:0.65rem;
+    display: flex;
+    line-height: 0.63rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cover .bottom ul li .box{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.cover .bottom .fdot{
+    height: 0.1rem;
+    width: 0.1rem;
+    background: #44B5FF;
+    border-radius: 50%;
+}
+.cover .bottom .words{
+    margin-left: 0.1rem;
+}
+.cover .bottom ul li p
+{
+    font-size: 0.24rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing:0.01rem;
+    color: #8a8c8d;
+}
+.cover .bottom ul li p span
+{
+    font-size: 0.24rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing:0.01rem;
+    color: #8a8c8d;
+}
+.cover .bottom ul li .pic{
+    height: 0.28rem;
+    width: 0.28rem;
+    background: red;
+    background: url('../img/quan.png') no-repeat center;
+    background-size:0.23rem 0.23rem;
+    display: none;
+}
+
+.cover .close{
+    width: 7.49rem;
+    height: 1.07rem;
+    margin-top: 0.5rem;
+}
+.cover .close .list{
+    width: 4.45rem;
+    height:0.6rem;
+    background-image: linear-gradient(90deg,
+    #37e06f 0%,
+    #31d69a 100%),
+    linear-gradient(
+            #3bacfe,
+            #3bacfe);
+    background-blend-mode: normal,
+    normal;
+    box-shadow: 0 0.04rem 0.2rem 0
+    rgba(55, 223, 116, 0.75);
+    border-radius: 0.3rem;
+    margin:0.7rem auto;
+    color: #fff;
+    text-align: center;
+    line-height: 0.6rem;
+}
+.cover .close .list p{
+    font-size: 0.2rem;
+    color: #fff;
+    width: 4.45rem;
+    height:0.6rem;
+    background-image: linear-gradient(90deg,
+    #37e06f 0%,
+    #31d69a 100%),
+    linear-gradient(
+            #3bacfe,
+            #3bacfe);
+    background-blend-mode: normal,
+    normal;
+    box-shadow: 0 0.04rem 0.2rem 0
+    rgba(55, 223, 116, 0.75);
+    border-radius: 0.3rem;
+    margin:0.7rem auto;
+    color: #fff;
+    text-align: center;
+    line-height: 0.6rem;
+}
+
+
+
+/*优惠券弹出框结束*/

@@ -122,6 +122,10 @@ main{
     line-height: 0.52rem;
 
 }
+
+.select .select-all .actives{
+    background:#3CACFE;
+}
 /*选择框结束*/
 
 
