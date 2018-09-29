@@ -182,6 +182,7 @@ header .list .dot{
     margin: 0 0.24rem;
     height: 0.93rem;
     padding: 0.45rem 0;
+    padding-top: .25rem;
 }
 .count .back-left{
     line-height: 0.42rem;
@@ -206,7 +207,7 @@ header .list .dot{
 }
 .reason{
     height:1.47rem;
-    margin:0 0.24rem;
+    margin: 0.24rem;
     border-radius: 0.08rem;
     background: #f1faff;
     padding:0.24rem;
@@ -236,8 +237,9 @@ header .list .dot{
 .camera{
     width: 1rem;
     height: 1rem;
+    background-image: url('../img/camera_wht.png');
     border-radius: 0.08rem;
-    background-image: -webkit-linear-gradient(left,#37E070,#32D698);
+    background-position: center;
     box-shadow: 0 0.05rem 0.15rem 0.03rem #A0EDC4;
     text-align: center;
     line-height: 1rem;

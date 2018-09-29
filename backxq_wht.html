@@ -7,11 +7,11 @@
 	<link rel="stylesheet" href="css/base.css">
 	<link rel="stylesheet" href="css/rem.css">
 	<link rel="stylesheet" href="css/backxq_wht.css">
-
+	<script src="js/jquery-3.3.1.js"></script>
 </head>
 <body>
 	<header>
-		<div class="back"></div>
+		<a href="order.html"><div class="back"></div></a>
 		<div class="title">退款详情</div>
 		<div class="list">
 			<div class="dot"></div>
@@ -35,7 +35,7 @@
 	</div>
 	<div class="btn">
 		<button class="call">客服</button>
-		<button class="change">修改</button>
+		<a href="backchange_wht.html"><button class="change">修改</button></a>
 		<button class="back">撤销</button>
 	</div>
 	<footer>
@@ -70,7 +70,53 @@
 		</div>
 
 	</footer>
-	<div class="bottom"><button class="submit">联系卖家</button></div>
+	<div class="bottom"><a href="custom_wht.html"><button class="submit">联系卖家</button></a></div>
 	
 </body>
 </html>
+<script>
+	 timemove();
+    setInterval(timemove,1000)
+    function timemove() {
+        let newtime = new Date()
+        let liss = $("nav .time .word span")
+        let sa = newtime.getFullYear();
+        let sb = newtime.getDate();
+        let sc = newtime.getMonth();
+        if (newtime.getHours() >= 18) {
+            sb += 1;
+        }
+        let nexttime = new Date(sa, sc, sb, 18);
+        let cha = Math.floor(nexttime.getTime() / 1000) - Math.floor(newtime.getTime() / 1000)
+        let newh = 0;
+        let newf = 0;
+        let newm = 0;
+        let a = [];
+        hour = Math.floor(cha / (60 * 60));
+        fen = Math.floor(cha % (60 * 60) / 60);
+        miao = Math.floor(cha % 60);
+        if (Math.floor(hour / 10) == 0) {
+            newh = "0" + hour;
+        } else {
+            newh = hour
+        }
+        a.push(newh)
+        if (Math.floor(fen / 10) == 0) {
+            newf = "0" + fen;
+        } else {
+            newf = fen
+        }
+        a.push(newf)
+
+        if (Math.floor(miao / 10) == 0) {
+            newm = "0" + miao;
+        } else {
+            newm = miao
+        }
+        a.push(newm)
+        for (let i = 0; i < liss.length; i++) {
+            liss[i].innerText = a[i]
+        }
+    }
+
+</script>

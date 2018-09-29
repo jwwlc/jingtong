@@ -1,47 +1,31 @@
-@import url("base.css");
-/*头部*/
-html, body {
+header{
+    height: 0.86rem;
     width: 100%;
-    height: 100%;
-}
-*{
-    font-family: 微软雅黑;
-}
-.box{
-    position: relative;
-    width: 100%;
-    height: 100%;
-}
-.all-head{
-    width: 100%;
-    height: .88rem;
-    background: #fbfeff;
-    /*position: fixed;*/
-    /*top: 0;*/
-    /*z-index: 999;*/
+    padding: 0 0.24rem;
     display: flex;
     justify-content: space-between;
+    background: #fff;
+    box-shadow: 0 0rem 0.4rem 0.1rem #edf8ff;
 }
-.all-head-left{
-    width: .48rem;
+header .back{
     height: 100%;
-    margin-left: .24rem;
-    text-align: center;
-    line-height: 0.44rem;
-    color: #4BB0FF;
+    width: 0.25rem;
+    background: url('../img/jt-back.png') no-repeat center;
+    background-size: 0.25rem 0.41rem;
 }
-.all-head-center{
-    width: auto;
-    font-size: .34rem;
+header .title{
+    font-size: 0.38rem;
     color: #4ebbfe;
-    text-align: center;
-    line-height: .88rem;
-
+    line-height: 0.86rem;
+    background: #fff;
 }
-.all-head-right{
-    width: .48rem;
+header .list{
+    width: 0.48rem;
     height: 100%;
-    margin-right: .24rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
 }
 
 .outbox{
@@ -49,6 +33,7 @@ html, body {
     height:auto;
     padding:0 0.27rem  0  0.22rem;
     box-sizing: border-box;
+    margin-top: .4rem;
 }
 .name{
     width: 100%;
