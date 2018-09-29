@@ -1,26 +1,22 @@
 .cover{
 	width: 100%;
 	height: 100%;
-	 opacity: .8;
+	/* opacity: .2; */
 	background-color: #fff;
-	position: fixed;
-	top: 0;
-	left: 0;
-	z-index: 12;
-	display: none;
+	/* display: flex; */
+
 }
 .cover_btn{
-	position: fixed;
+	position: absolute;
 	top: 8.43rem;
 	left: 1.34rem;
 	right: 1.34rem;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	z-index: 15;
 }
 .llll{
-	 display: none;
+	/* display: none; */
 }
 
 .cover_leftbtn p{
@@ -58,5 +54,4 @@
 	left: 3.5rem;
 	right: 3.5rem;
 	line-height: .5rem;
-	z-index: 15;
 }

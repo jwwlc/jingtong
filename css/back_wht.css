@@ -1,33 +1,34 @@
 header{
+    height: 0.86rem;
     width: 100%;
-    height: .88rem;
-    background: #fbfeff;
-    /*position: fixed;*/
-    /*top: 0;*/
-    /*z-index: 999;*/
+    padding: 0 0.24rem;
     display: flex;
     justify-content: space-between;
+    /* box-shadow: 0 0.2rem 0.6rem 0.002rem #333; */
+    margin-top: .38rem;
 }
-.back{
-    width: .48rem;
+header .back{
     height: 100%;
-    /* margin-left: .24rem; */
-    text-align: center;
-    line-height: 0.44rem;
-    color: #4BB0FF;
+    width: 0.25rem;
+    background: url('../img/Back.png') no-repeat center;
 }
-.title{
-    width: auto;
-    font-size: .34rem;
+header .title{
+    font-size: 0.38rem;
     color: #4ebbfe;
-    text-align: center;
-    line-height: .88rem;
-
+    line-height: 0.86rem;
 }
-.all-head-right{
-    width: .48rem;
+header .list{
+    width: 0.48rem;
     height: 100%;
-    margin-right: .24rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .list .dot{
+    /* background: #36a8fe; */
+    /* height: 0.08rem; */
+    /* width: 0.08rem; */
+    border-radius: 50%;
 }
 /*退货列表*/
 .bottomBox{
@@ -49,10 +50,10 @@ header{
     margin: 0.5rem 0;
 }
 .picture img {
-    width: 1.74rem;
-    height: 1.74rem;
+    width: 1.22rem;
+    height: 1.22rem;
     border-radius: 5px;
-    background: #37ce9a;
+    /* background: #37ce9a; */
     margin-right: 0.24rem;
     float: left;
 }

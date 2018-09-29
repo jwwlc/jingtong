@@ -1,0 +1,179 @@
+header{
+	height: 0.86rem;
+	width: 100%;
+	padding: 0 0.24rem;
+	display: flex;
+	justify-content: space-between;
+	box-shadow: 0rem 0 0.4rem 0.1rem #EDF8FF;
+}
+header .back{
+	height: 100%;
+	width: 0.25rem;
+	background: url('../img/back.png') no-repeat center;
+	background-size: 0.25rem 0.41rem;
+}
+header .title{
+	font-size: 0.38rem;
+	color: #4ebbfe;
+	line-height: 0.86rem;
+}
+header .list{
+	width: 0.25rem;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+/* header .list .dot{
+	background: #36a8fe;
+	height: 0.08rem;
+	width: 0.08rem;
+	border-radius: 50%;
+} */
+.container{
+	width: calc(100% - 0.48rem);
+	height: 100%; 
+	margin: 0 auto;
+}
+.content{
+	width: 100%;
+	height: calc(100% - 1.84rem);
+	padding-top: 0.66rem;
+}
+.content .client1{
+	width: 100%;
+	height: 1.3rem;
+	position: relative;
+}
+.content .service{
+	width: 100%;
+	height: 1.3rem;
+	position: relative;
+}
+.content .client2{
+	width: 100%;
+	height: 1.3rem;
+	position: relative;
+}
+.content img{
+	width: 0.8rem;
+	height: 0.8rem;
+	float: left;
+}
+.content .service img{
+	float: right;
+}
+.content .client1 p{
+	width: 0.8rem;
+	font-size: 0.18rem;
+	text-align: center;
+	color: #989898;
+	position: absolute;
+	left: 0;
+	top: 0.8rem;
+}
+.content .service p{
+	width: 0.8rem;
+	font-size: 0.18rem;
+	text-align: center;
+	color: #989898;
+	position: absolute;
+	right: 0;
+	top: 0.8rem;
+}
+.content .client2 p{
+	width: 0.8rem;
+	font-size: 0.18rem;
+	text-align: center;
+	color: #989898;
+	position: absolute;
+	left: 0;
+	top: 0.8rem;
+}
+.content .client1 .client1_text{
+	float: right;
+	width: 4.76rem;
+	height: 0.68rem;
+	line-height: 0.68rem;
+	border-radius: 0.4rem;
+	border-top-left-radius: 0;
+	background: linear-gradient(to right,#31A4FE,#6DD4FE);
+	font-size: 0.22rem;
+	color: #fff;
+	text-align: center;
+	position: absolute;
+	left: 1rem;
+	top: 0;
+	box-shadow: 0 0.04rem 0.3rem 0.08rem #C5E7FF;
+}
+.content .service .service_text{
+	float: left;
+	width: 4.76rem;
+	height: 0.68rem;
+	line-height: 0.68rem;
+	border-radius: 0.4rem;
+	border-top-right-radius: 0;
+	background: linear-gradient(to right,#2FD4B8,#2DDE59);
+	font-size: 0.22rem;
+	color: #fff;
+	text-align: center;
+	position: absolute;
+	right: 1rem;
+	top: 0;
+	box-shadow: 0 0.04rem 0.3rem 0.08rem #B9EFCB;
+}
+.content .client2 .client2_text{
+	float: right;
+	width: 4rem;
+	height: 0.68rem;
+	line-height: 0.68rem;
+	line-height: 0.8rem;
+	border-radius: 0.4rem;
+	border-top-left-radius: 0;
+	background: linear-gradient(to right,#31A4FE,#6DD4FE);
+	font-size: 0.22rem;
+	color: #fff;
+	text-align: center;
+	position: absolute;
+	left: 1rem;
+	top: 0;
+	box-shadow: 0 0.04rem 0.3rem 0.08rem #C5E7FF;
+}
+footer{
+	width: 100%;
+	height: 0.98rem;
+	background-color: #36A8FE;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+footer .left{
+	width: 0.64rem;
+	height: 100%;
+	float: left;
+	display: flex;
+	align-items: center;
+}
+footer .right{
+	width: 0.5rem;
+	height: 100%;
+	float: right;
+	display: flex;
+	align-items: center;
+}
+footer form{
+	width: 5.32rem;
+	height: 100%;
+	float: left;
+	margin-left: 0.24rem;
+}
+footer form input{
+	float: left;
+	width: 5.32rem;
+	height: 0.6rem;
+	margin-top: 0.2rem;
+	padding: 0 0.2rem;
+	background-color: #fff;
+	border: 0.04rem solid #2993E3;
+	border-radius: 0.3rem;
+}
