@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width">
+    <script src="js/rem.js"></script>
+    <script src="js/animate.js"></script>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=0,minimal-ui">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://at.alicdn.com/t/font_807895_r1dy25xcesl.css">
+</head>
+<body>
+<header>
+    <p><img src="img/Back.png" alt="">晋彤</p>
+</header>
+<nav>
+    <a href="jys_ChooseCity.html"><h3>太原&nbsp;&or;</h3></a>
+    <input type="text" placeholder="搜索您需要的服务 商品">
+    <!--<i class="iconfont icon-fangdajing fd"></i>-->
+    <img src="img/搜索.png" alt="">
+</nav>
+<div class="lbt">
+    <img src="img/water.png" alt="" style="left:0;">
+    <img src="img/water.png" alt="" style="left:0;">
+    <img src="img/water.png" alt="" style="left:0;">
+    <ul class="spot">
+        <li style="background: #46b7f8"></li>
+        <li></li>
+        <li></li>
+    </ul>
+</div>
+<main>
+    <div class="mainBox" style="z-index: 10;">
+        <ul>
+            <li><a href="">
+                <img src="img/01_01.png" alt="">
+                <span>水路综合</span>
+            </a>
+            </li>
+            <li>
+                <a href="">
+                <img src="img/01_02.png" alt="">
+                <span>水管维修</span>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                <img src="img/01_03.png" alt="">
+                <span>管道维修</span>
+                </a>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <a href="">
+                <img src="img/01_04.png" alt="">
+                <span>龙头维修</span>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                <img src="img/01_05.png" alt="">
+                <span>地漏疏通</span>
+                </a>
+            </li>
+            <li><a href="">
+                <img src="img/01_01.png" alt="">
+                <span>阀门维修</span>
+            </a>
+            </li>
+        </ul>
+        <ul>
+            <li><a href="">
+                <img src="img/01_06.png" alt="">
+                <span>下水道疏通</span>
+            </a>
+            </li>
+            <li>
+                <a href="">
+                <img src="img/01_07.png" alt="">
+                <span>其它</span>
+                </a>
+            </li>
+            <li></li>
+        </ul>    
+    </div>
+    <div class="mainBox"></div>
+    <div class="mainBox"></div>
+    <div class="mainBox"></div>
+    <div class="mainBox"></div>
+</main>
+<footer>
+    <ul>
+        <li><a href="">
+            <!--<i class="iconfont icon-shouye"></i>-->
+            <img src="img/home.png" alt="">
+            <h3>首页</h3>
+        </a>
+        </li>
+        <li><a href="">
+            <!--<i class="iconfont icon-shangcheng"></i>-->
+            <img src="img/shop.png" alt="">
+            <h3>商城</h3>
+        </a>
+        </li>
+        <li><a href="">
+            <!--<i class="iconfont icon-add"></i>-->
+            <img src="img/join.png" alt="">
+            <h3>入驻</h3>
+        </a>
+        </li>
+        <li>
+            <a href="">
+            <!--<i class="iconfont icon-icon-"></i>-->
+            <img src="img/order.png" alt="">
+            <h3>订单</h3>
+            </a>
+        </li>
+        <li><a href="">
+            <!--<i class="iconfont icon-xiazai"></i>-->
+            <img src="img/personal.png" alt="">
+            <h3>我的</h3>
+        </a>
+        </li>
+
+    </ul>
+</footer>
+</body>
+</html>
+<script>
+    <!--轮播图-->
+    let ul=document.querySelector(".lbt");
+    let lis=ul.querySelectorAll("img");
+    let spans=ul.querySelectorAll(".spot li");
+    let width=parseInt(getComputedStyle(lis[0],null).width);
+    let now=next=0;
+
+    let t=setInterval(move,2000);
+    function move() {
+        next++;
+        if(next==lis.length){
+            next=0;
+        }
+        lis[next].style.left=width+"px";
+        animate(lis[now],{left:-width});
+        animate(lis[next],{left:0});
+        for(let j=0;j<lis.length;j++){
+            spans[j].style.background="#c7eafd";
+        }
+        spans[next].style.background="#46b7f8";
+        now=next;
+    }
+    function movel() {
+        next--;
+        if(next<0){
+            next=lis.length-1;
+        }
+        lis[next].style.left=width+"px";
+        animate(lis[now],{left:width});
+        animate(lis[next],{left:0});
+        for(let j=0;j<lis.length;j++){
+            spans[j].style.background="#c7eafd";
+        }
+        spans[next].style.background="#46b7f8";
+        now=next;
+    }
+
+    ul.onmouseenter=function(){
+        clearInterval(t);
+    }
+    ul.onmouseleave=function(){
+        t=setInterval(move,1000);
+    }
+
+
+    for(let i=0;i<spans.length;i++){
+        spans[i].onclick=function () {
+            if(i==now){
+                return;
+            }else if(i>now){
+                animate(lis[now],{left:-width});
+                animate(lis[i],{left:0});
+                for(let j=0;j<lis.length;j++){
+                    spans[j].style.background="#c7eafd";
+                }
+                spans[i].style.background="#46b7f8";
+            }else{
+                animate(lis[now],{left:width});
+                animate(lis[i],{left:0});
+                for(let j=0;j<lis.length;j++){
+                    spans[j].style.background="#c7eafd";
+                }
+                spans[i].style.background="#46b7f8";
+            }
+            now=right=i;
+        }
+    }
+
+    //双击跳转至搜索
+    let input1=document.querySelector("nav input");
+    input1.onclick=function () {
+        window.location.href="jys_SearchCity.html";
+    }
+</script>

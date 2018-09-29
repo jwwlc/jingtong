@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width">
+    <script src="js/rem.js"></script>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=0,minimal-ui">
+    <link rel="stylesheet" href="css/jys_Switch.css">
+    <link rel="stylesheet" href="https://at.alicdn.com/t/font_807895_r1dy25xcesl.css">
+</head>
+<body>
+<header>
+    <p><a href="jys_ChooseCity.html"><img src="img/Back.png" alt=""></a>切换城市</p>
+</header>
+<nav>
+    <input type="text" placeholder="搜索您需要定位的城市">
+    <a href="jys_SearchSorry.html"><i class="iconfont icon-fangdajing fd"></i></a>
+</nav>
+<div class="address">
+    <div class="spot"></div>
+    <span>当前定位城市</span><p>太原</p>
+</div>
+
+<main>
+    <ul>
+        <h2>A</h2>
+        <li>
+            <span></span>
+            <h3>鞍山市</h3>
+        </li>
+    </ul>
+    <ul>
+        <h2>B</h2>
+        <li>
+            <span></span>
+            <h3>河北保定市</h3>
+        </li>
+        <li>
+            <span></span>
+            <h3>河北保定市</h3>
+        </li>
+        <li>
+            <span></span>
+            <h3>河北保定市</h3>
+        </li>
+        <li>
+            <span></span>
+            <h3>河北保定市</h3>
+        </li>
+    </ul>
+</main>
+<aside>
+    <div class="btn">
+        <a href="javaScript:;" class="hot">A</a>
+        <a href="javaScript:;">B</a>
+        <a href="javaScript:;">C</a>
+        <a href="javaScript:;">D</a>
+        <a href="javaScript:;">E</a>
+        <a href="javaScript:;">F</a>
+        <a href="javaScript:;">G</a>
+        <a href="javaScript:;">H</a>
+        <a href="javaScript:;">I</a>
+        <a href="javaScript:;">G</a>
+        <a href="javaScript:;">K</a>
+        <a href="javaScript:;">L</a>
+        <a href="javaScript:;">M</a>
+        <a href="javaScript:;">N</a>
+        <a href="javaScript:;">O</a>
+        <a href="javaScript:;">P</a>
+        <a href="javaScript:;">Q</a>
+        <a href="javaScript:;">R</a>
+        <a href="javaScript:;">S</a>
+        <a href="javaScript:;">T</a>
+        <a href="javaScript:;">U</a>
+        <a href="javaScript:;">V</a>
+        <a href="javaScript:;">W</a>
+        <a href="javaScript:;">X</a>
+        <a href="javaScript:;">Y</a>
+        <a href="javaScript:;">Z</a>
+        <a href="javaScript:;">#</a>
+    </div>
+</aside>
+</body>
+</html>
+<script>
+    let btns=document.querySelectorAll("aside .btn a");
+    for(let i=0;i<btns.length;i++){
+        btns[i].onclick=function () {
+            for(let j=0;j<btns.length;j++){
+                btns[j].className="";
+            }
+            btns[i].className="hot";
+        }
+    }
+</script>

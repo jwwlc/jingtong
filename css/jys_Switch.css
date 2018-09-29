@@ -1,0 +1,179 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+header{
+    width: 100%;
+    height: .89rem;
+    display: flex;
+    margin-top: .4rem;
+    padding: 0 .23rem;
+    box-sizing: border-box;
+}
+header p{
+    width: 100%;
+    height: .89rem;
+    display: block;
+    color: #4ebbfe;
+    line-height: .89rem;
+    font-size: .31rem;
+    text-align: center;
+    position: relative;
+}
+header a{
+    line-height: .89rem;
+    font-size: .31rem;
+    color: #4ebbfe;
+    position: absolute;
+    left: 0;
+    top:0;
+    bottom:0;
+    margin:auto 0;
+}
+header a img{
+    height: .4rem;
+}
+nav{
+    width: 100%;
+    height:.6rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: .18rem;
+    box-sizing: border-box;
+    padding: 0 .23rem;
+    position: relative;
+}
+nav input{
+    width: 7.5rem;
+    height:.6rem;
+    outline:none;
+    border: .03rem solid #e8f6ff;
+    border-radius: .3rem;
+    font-size: .25rem;
+    line-height: .6rem;
+    color: #4ebbfe;
+    box-sizing: border-box;
+    padding-left: .65rem;
+}
+nav .fd{
+    display: block;
+    position: absolute;
+    font-size: .36rem;
+    box-sizing: border-box;
+    padding-top: .1rem;
+    color: #a1dfbd;
+    left: .4rem;
+    top:0;
+    bottom:0;
+    margin:auto 0;
+}
+.address{
+    width: 6.97rem;
+    height: .9rem;
+    margin: 0 auto;
+    border-bottom:2px solid #eef1f2;
+    display: flex;
+    position: relative;
+}
+.address .spot{
+    width: .1rem;
+    height: .05rem;
+    border-radius: 50%;
+    background: #44b5ff;
+    margin-top:.4rem;
+    margin-left: .1rem;
+    box-shadow: .01rem .01rem .1rem .01rem rgba(0,0,0,.4);
+}
+.address span{
+    font-size: .25rem;
+    display: inline-block;
+    margin-top:.24rem;
+    margin-left:.24rem;
+}
+.address p{
+    width: .97rem;
+    height: .48rem;
+    border-radius: .24rem;
+    background: #e7f6ff;
+    font-size: .24rem;
+    color: #36a8fe;
+    text-align: center;
+    line-height: .48rem;
+    position: absolute;
+    left: 2.3rem;
+    top: .18rem;
+}
+h2{
+    display: block;
+    width: .44rem;
+    height: .44rem;
+    color: #fff;
+    font-size: .19rem;
+    text-align: center;
+    line-height: .44rem;
+    background: #44b5ff;
+    border-radius: 50%;
+    position: absolute;
+    left:0;
+    top: -0.7rem;
+}
+main ul{
+    width: 6.97rem;
+    margin: 1.01rem auto 0;
+    position: relative;
+}
+main li{
+    width: 6.97rem;
+    height: .55rem;
+    position: relative;
+    box-sizing: border-box;
+    padding-left: .4rem;
+    margin-top: .5rem;
+    border-bottom: 1px solid #f6f9fa;
+}
+main li h3{
+    font-size: .27rem;
+    line-height: .44rem;
+}
+main span{
+    display: block;
+    width: .1rem;
+    height: .1rem;
+    border-radius: 50%;
+    background: #37ce9a;
+    position: absolute;
+    left: .08rem;
+    top: .18rem;
+}
+aside{
+    width: .13rem;
+    height: .67rem;
+    position: fixed;
+    top: 3.4rem;
+    right: .17rem;
+}
+aside .btn{
+    width: 100%;
+    height: .67rem;
+}
+aside .btn a{
+    display: block;
+    width: .13rem;
+    height: .35rem;
+    line-height: .35rem;
+    font-size: .13rem;
+    text-decoration: none;
+    color: #c1c1c1;
+}
+aside .btn .hot{
+    color: #36a8fe;
+}

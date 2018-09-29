@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width">
+    <script src="js/rem.js"></script>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=0,minimal-ui">
+    <link rel="stylesheet" href="css/jys_SearchCity.css">
+    <link rel="stylesheet" href="https://at.alicdn.com/t/font_807895_r1dy25xcesl.css">
+</head>
+<body>
+<header>
+    <p><a href="jys_Switch.html">
+        <img src="img/Back.png" alt="">
+    </a>搜索</p>
+</header>
+<nav>
+    <input type="text" placeholder="搜索您需要定位的城市">
+    <div class="ico"><i class="iconfont icon-fangdajing fd"></i></div>
+</nav>
+<div class="address">
+    <div class="spot"></div>
+    <span style="color:#41b2fc;margin-left: .23rem;">附近</span><span>搜索</span>
+</div>
+<div class="address1">
+    <p>水管</p>
+    <p>龙头</p>
+    <p>弹跳面板</p>
+</div>
+<div class="address" style="margin-top: .62rem;">
+    <div class="spot"></div>
+    <span style="color:#41b2fc;margin-left: .23rem;">大家</span><span>都在搜</span>
+</div>
+<div class="address1">
+    <p>水管</p>
+    <p>龙头</p>
+    <p>弹跳面板</p>
+    <p>龙头</p>
+</div>
+<div class="address1">
+    <p>水管</p>
+    <p>龙头</p>
+    <p>龙头</p>
+</div>
+</body>
+</html>
+<script>
+    let ico1=document.querySelector("nav .ico");
+    ico1.onclick=function () {
+        window.location.href="jys_SearchCommodity.html";
+    }
+    let address1=document.querySelectorAll(".address1");
+    let p1=address1[0].querySelectorAll("p");
+    p1[0].onclick=function () {
+        window.location.href="jys_SearchCommodity.html";
+    }
+</script>

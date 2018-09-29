@@ -1,0 +1,135 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+    overflow: hidden;
+}
+header{
+	width: 100%;
+	height: .89rem;
+	display: flex;
+	margin-top: .4rem;
+	padding: 0 .23rem;
+    box-sizing: border-box;
+}
+header p{
+    width: 100%;
+    height: .89rem;
+    display: block;
+    color: #4ebbfe;
+    line-height: .89rem;
+    font-size: .31rem;
+    text-align: center;
+    position: relative;
+}
+header a{
+	line-height: .89rem;
+	font-size: .31rem;
+	color: #4ebbfe;
+    position: absolute;
+    left: 0;
+    top:0;
+    bottom:0;
+    margin:auto 0;
+}
+header a img{
+	height: .4rem;
+}
+nav{
+	width: 100%;
+	height:.6rem;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: .18rem;
+    box-sizing: border-box;
+	padding: 0 .23rem;
+    position: relative;
+}
+nav h3{
+	font-size: .26rem;
+	line-height: .6rem;
+	color: #4ebbfe;
+}
+nav input{
+	width: 5.93rem;
+	height:.6rem;
+	outline:none;
+	border: .03rem solid #e8f6ff;
+	border-radius: .3rem;
+	font-size: .25rem;
+	line-height: .6rem;
+	color: #4ebbfe;
+	box-sizing: border-box;
+	padding-left: .23rem;
+}
+nav .fd{
+    display: block;
+    position: absolute;
+    font-size: .36rem;
+    box-sizing: border-box;
+    padding-top: .1rem;
+    color: #a1dfbd;
+    right: .4rem;
+    top:0;
+    bottom:0;
+    margin:auto 0;
+}
+.address{
+	width: 6.97rem;
+	height: .79rem;
+	margin: 0 auto;
+	border-bottom:2px solid #eef1f2;
+	display: flex;
+}
+.address .spot{
+	width: .1rem;
+	height: .05rem;
+	border-radius: 50%;
+	background: #44b5ff;
+	margin-top:.4rem;
+	margin-left: .1rem;
+	box-shadow: .01rem .01rem .1rem .01rem rgba(0,0,0,.4);
+}
+.address span{
+	font-size: .31rem;
+	display: inline-block;
+	margin-top:.24rem;
+}
+main ul{
+	width: 6.97rem;
+	margin: 0 auto;
+}
+main li{
+	width: 6.97rem;
+	height: .8rem;
+	position: relative;
+	box-sizing: border-box;
+	padding-left: .4rem;
+	margin-top: .5rem;
+}
+main li h3{
+	font-size: .27rem;
+	line-height: .44rem;
+}
+main li p{
+	font-size: .21rem;
+	line-height: .35rem;
+	color: #afb1b2;
+}
+main span{
+	display: block;
+	width: .1rem;
+	height: .1rem;
+	border-radius: 50%;
+	background: #37ce9a;
+	position: absolute;
+	left: .08rem;
+	top: .18rem;
+}

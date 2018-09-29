@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>填写订单</title>
+    <meta name="viewport" content="width=device-width">
+    <script src="js/rem.js"></script>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=0,minimal-ui">
+    <link rel="stylesheet" href="css/jys_order.css">
+    <link rel="stylesheet" href="https://at.alicdn.com/t/font_807895_r1dy25xcesl.css">
+    <script src="js/jquery-3.3.1.js"></script>
+</head>
+<body>
+<header>
+    <p>
+        <img src="img/Back.png" alt="">
+        <span>填写订单</span></p>
+</header>
+<div class="information">
+    <div class="conter">
+        <div class="personal">
+            <div class="box">
+                <div class="qian">
+            <h3>张三丰</h3>
+            <div class="number">
+                <p>182 **** 9907</p>
+               <span>太原市小店区学府街滨河东路34号</span>
+            </div>
+                </div>
+            <img src="img/转入.png" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+<!--商品-->
+<div class="commodity">
+    <div class="conter">
+        <div class="box">
+            <img src="img/WaterBottom.png" alt="">
+            <div class="price">
+                <b>潜水艇高端龙头</b>
+                <h4>普通下水疏通</h4>
+                <div>定金￥<span>30</span></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--留言-->
+<div class="words">
+    <div class="conter">
+        <div class="head">
+            <span></span>
+            <h3>留言</h3>
+        </div>
+        <textarea  placeholder="&emsp;&emsp;给服务人员捎句话"></textarea>
+        <img src="img/照相.png" alt="">
+    </div>
+</div>
+<!--预定时间-->
+<div class="time">
+    <div class="conter">
+        <div class="box">
+            <div class="left">
+                <span></span>
+                <h3>预订</h3>
+                <b>时间</b>
+            </div>
+            <div class="right">
+                <b>推荐</b>
+                <span>05.03</span>
+                <span>14:00-15:30</span>
+                <img src="img/转入.png" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+<!--底部-->
+<div class="button">
+    <div class="conter">
+        <div class="box">
+            <div class="left">
+                <span></span>
+                <b>定金：</b>
+                <h3>￥</h3>
+                <h2>30</h2>
+            </div>
+            <div class="right">
+                <b>立即付款</b>
+            </div>
+        </div>
+    </div>
+</div>
+<!--弹出框-->
+<div class="eject">
+    <div class="head">
+        <div class="tex">
+        <span>选择</span>
+        <b>时间</b>
+        </div>
+        <img src="img/关闭.png" alt="">
+    </div>
+    <div class="middle">
+        <div class="conter">
+            <div class="xx eject_xg">
+                <b>今天</b>
+                <span>06.08</span>
+            </div>
+
+            <div class="xx">
+                <b>明天</b>
+                <span>06.09</span>
+            </div>
+
+            <div class="xx">
+                <b>周五</b>
+                <span>06.10</span>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="box">
+        <ul>
+            <li class="full">已满</li>
+            <li class="times">10:00</li>
+            <li class="times">120:00</li>
+            <li class="full">已满</li>
+            <li class="times">16:00</li>
+        </ul>
+        <ul>
+            <li class="times">8:30</li>
+            <li class="times">10:30</li>
+            <li class="times">12:30</li>
+            <li class="full">已满</li>
+            <li class="times">16:30</li>
+        </ul>
+        <ul>
+            <li class="times">9:00</li>
+            <li class="times">11:00</li>
+            <li class="full">已满</li>
+            <li class="times">15:00</li>
+            <li class="full">已满</li>
+        </ul>
+        <ul>
+            <li class="times">9:30</li>
+            <li class="times">11:30</li>
+            <li class="full">已满</li>
+            <li class="times">15:30</li>
+            <li></li>
+        </ul>
+        </div>
+    </div>
+    <div class="certain">
+        <div class="dian">
+            确认
+        </div>
+    </div>
+</div>
+<div class="mask">
+</div>
+</body>
+</html>
+<script>
+    $(".button .conter .right").click(function () {
+        $(".eject").slideDown("slow");
+        $(".mask").show();
+    })
+    $(".eject .certain .dian").click(function () {
+        $(".eject").slideUp("slow");
+        $(".mask").hide();
+    })
+    $(".eject .head img").click(function () {
+        $(".eject").slideUp("slow");
+        $(".mask").hide();
+    })
+
+</script>
