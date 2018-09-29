@@ -36,10 +36,8 @@ header p{
     text-align: center;
     position: relative;
 }
-header span{
-    line-height: .89rem;
-    font-size: .31rem;
-    color: #4ebbfe;
+header img{
+    height: .4rem;
     position: absolute;
     left: 0;
     top:0;
