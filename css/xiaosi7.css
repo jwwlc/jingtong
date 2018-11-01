@@ -2,7 +2,7 @@
 * @Author: Lenovo
 * @Date:   2018-09-28 14:38:13
 * @Last Modified by:   Lenovo
-* @Last Modified time: 2018-09-28 16:24:14
+* @Last Modified time: 2018-09-29 19:55:20
 */
 *{
 	padding:0;
@@ -166,7 +166,7 @@ header .title{
 	margin-top: -0.6rem;
 	font-size: 0.2rem;
 	display: block;
-	width: 3.5rem;
+	width: 1.5rem;
 	color: #7BC7FE;
 }
 .container  .two .xin .tou .wen3{
@@ -210,7 +210,7 @@ header .title{
 	margin-top: -0.3rem;
 	font-size: 0.2rem;
 	display: block;
-	width: 3.5rem;
+	width: 1.5rem;
 	color: #CFCFCF;
 }
 .container  .two .xin .tou .xiao2{
@@ -255,7 +255,7 @@ header .title{
 	margin-top: -0.35rem;
 	font-size: 0.2rem;
 	display: block;
-	width: 3.5rem;
+	width: 1.5rem;
 	color: #CFCFCF;
 }
 .container  .two .xin .tou .xing{
@@ -393,7 +393,7 @@ header .title{
 	margin-top: -1.78rem;
 	font-size: 0.25rem;
 	display: block;
-	width: 2.2rem;
+	width: 1.2rem;
 	height: 0.15rem;
 	color: black;
 }
